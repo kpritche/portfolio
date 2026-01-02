@@ -125,8 +125,8 @@ portfolio/
 │   │   └── github-pages-projects.md
 │   ├── intro.md                # Landing page
 │   └── myst.yml                # Jupyter Book configuration
-├── pyproject.toml              # Project metadata
-├── requirements.txt            # Python dependencies
+├── pyproject.toml              # Project metadata and dependencies
+├── uv.lock                     # uv lock file (dependency versions)
 └── README.md                   # This file
 ```
 
@@ -134,19 +134,19 @@ portfolio/
 
 The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch via GitHub Actions.
 
+For detailed deployment instructions, refer to the [Jupyter Book Publishing guide](https://jupyterbook.org/stable/get-started/publish/), which covers GitHub Pages, ReadTheDocs, Netlify, and other hosting platforms.
+
 ### Manual Deployment
 
 To deploy manually:
 
 1. Build the book from the portfolio directory:
    ```bash
-   cd portfolio
-   jupyter-book build --site
+   uv run jupyter-book build --site
    ```
 
 2. Push changes to GitHub:
    ```bash
-   cd ..
    git add .
    git commit -m "Update portfolio content"
    git push origin main
