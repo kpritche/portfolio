@@ -8,7 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+#build/
 develop-eggs/
 dist/
 downloads/
@@ -41,7 +41,7 @@ coverage.xml
 .pytest_cache/
 
 # Jupyter Book / MyST build outputs
-_build/
+#_build/
 .jupyter_cache/
 
 # Environments
