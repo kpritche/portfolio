@@ -41,9 +41,8 @@ coverage.xml
 .pytest_cache/
 
 # Jupyter Book / MyST build outputs
-_build/
-!_build/html
 .jupyter_cache/
+_build/
 
 # Environments
 .env

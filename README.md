@@ -54,22 +54,34 @@ This portfolio demonstrates my expertise in:
 
 ### Build the Site
 
-Build the Jupyter Book v2 site locally using MyST. Choose either approach:
+Build the Jupyter Book locally. You can build either format:
 
-**Option 1: Using `uv run` (Recommended)**
+**Build HTML (for GitHub Pages deployment):**
 
-You don't need to manually activate the virtual environment:
-
-```bash
-uv run jupyter-book build --site
-```
-
-**Option 2: After Activating Virtual Environment**
+Using `uv run` (recommended - no need to activate virtual environment):
 
 ```bash
 cd portfolio
-jupyter-book build --site
+uv run jupyter-book build --html
 ```
+
+Or after activating the virtual environment:
+
+```bash
+cd portfolio
+jupyter-book build --html
+```
+
+The HTML output will be in `portfolio/_build/html/`.
+
+**Build MyST Site (alternative format):**
+
+```bash
+cd portfolio
+uv run jupyter-book build --site
+```
+
+The site output will be in `portfolio/_build/site/`.
 
 For more detailed information, refer to the [Jupyter Book v2 Documentation](https://jupyterbook.org/en/stable/build/index.html).
 
@@ -132,7 +144,7 @@ portfolio/
 
 ## Deployment
 
-The site automatically builds and deploys to GitHub Pages when changes are pushed to the `main` branch. The GitHub Actions workflow handles building the Jupyter Book and pushing the built site to the `gh-pages` branch.
+The site automatically builds and deploys to GitHub Pages when changes are pushed to the `main` branch. The GitHub Actions workflow builds the Jupyter Book HTML and pushes it to the `gh-pages` branch.
 
 ### Configure GitHub Pages
 
@@ -146,15 +158,16 @@ To enable automatic deployment, configure your repository settings:
 
 The workflow will automatically create the `gh-pages` branch on the first successful build.
 
-### Manual Local Deployment
+### Manual Local Build
 
-To build locally for testing:
+To build the HTML locally for testing:
 
 ```bash
-uv run jupyter-book build --site
+cd portfolio
+uv run jupyter-book build --html
 ```
 
-The built site will be in `portfolio/_build/site/`.
+The built HTML will be in `portfolio/_build/html/`.
 
 For detailed deployment instructions, refer to the [Jupyter Book Publishing guide](https://jupyterbook.org/stable/get-started/publish/), which covers GitHub Pages, ReadTheDocs, Netlify, and other hosting platforms.
 
