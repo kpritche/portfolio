@@ -34,6 +34,8 @@ jobs:
         working-directory: portfolio
         run: |
           uv run jupyter-book build --html
+        env:
+          BASE_URL: /${{ github.event.repository.name }}
 
       - name: Deploy to gh-pages branch
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'

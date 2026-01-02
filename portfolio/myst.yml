@@ -34,7 +34,8 @@ site:
   # Base URL for GitHub Pages deployment (repository name)
   # Set to empty string if deploying to root domain
   options:
-    baseurl: /portfolio
+    # Use camelCase key expected by MyST: baseUrl
+    baseUrl: /portfolio
   
   nav:
     - title: Home
