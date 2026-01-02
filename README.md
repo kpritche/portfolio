@@ -132,27 +132,31 @@ portfolio/
 
 ## Deployment
 
-The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch via GitHub Actions.
+The site automatically builds and deploys to GitHub Pages when changes are pushed to the `main` branch. The GitHub Actions workflow handles building the Jupyter Book and pushing the built site to the `gh-pages` branch.
+
+### Configure GitHub Pages
+
+To enable automatic deployment, configure your repository settings:
+
+1. Go to your repository **Settings** → **Pages**
+2. Under "Build and deployment" → "Source", select **"Deploy from a branch"**
+3. Choose the **`gh-pages`** branch
+4. Leave the folder as **`/ (root)`**
+5. Click **Save**
+
+The workflow will automatically create the `gh-pages` branch on the first successful build.
+
+### Manual Local Deployment
+
+To build locally for testing:
+
+```bash
+uv run jupyter-book build --site
+```
+
+The built site will be in `portfolio/_build/site/`.
 
 For detailed deployment instructions, refer to the [Jupyter Book Publishing guide](https://jupyterbook.org/stable/get-started/publish/), which covers GitHub Pages, ReadTheDocs, Netlify, and other hosting platforms.
-
-### Manual Deployment
-
-To deploy manually:
-
-1. Build the book from the portfolio directory:
-   ```bash
-   uv run jupyter-book build --site
-   ```
-
-2. Push changes to GitHub:
-   ```bash
-   git add .
-   git commit -m "Update portfolio content"
-   git push origin main
-   ```
-
-The GitHub Actions workflow will automatically build and deploy the site to GitHub Pages.
 
 ## Customization
 
