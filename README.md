@@ -1,2 +1,175 @@
-# portfolio
-My personal portfolio of projects and work.
+# Kory Pritchett's Professional Portfolio
+
+A professional portfolio website showcasing curriculum development, interactive course materials, and automation projects, built with Jupyter Book v2 and deployed to GitHub Pages.
+
+## Live Site
+
+Visit the portfolio at: `https://kpritche.github.io/portfolio/`
+
+## About This Portfolio
+
+This portfolio demonstrates my expertise in:
+
+- **Curricular Materials** — Educational content for First-Year Engineering at Purdue University
+- **Interactive Course Materials** — Web-based learning experiences with Jupyter Book and GitHub Pages
+- **Automation Tools** — Python-based solutions streamlining workflows and solving technical challenges
+
+## Built With
+
+- **[Jupyter Book v2](https://jupyterbook.org/)** — Modern, beautiful documentation
+- **[MyST Markdown](https://mystmd.org/)** — Enhanced markdown with rich features
+- **[GitHub Pages](https://pages.github.com/)** — Free, reliable hosting
+- **[GitHub Actions](https://github.com/features/actions)** — Automated build and deployment
+- **Python 3.11** — Development environment
+
+## Local Development
+
+### Prerequisites
+
+- Python 3.9 or higher
+- [uv](https://github.com/astral-sh/uv) package manager (recommended)
+
+### Setup
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/kpritche/portfolio.git
+   cd portfolio
+   ```
+
+2. Create a virtual environment and install dependencies using uv:
+   ```bash
+   uv sync
+   ```
+
+3. Activate the virtual environment:
+   - On macOS/Linux:
+     ```bash
+     source .venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     .venv\Scripts\activate
+     ```
+
+### Build the Site
+
+Build the Jupyter Book v2 site locally using MyST. Choose either approach:
+
+**Option 1: Using `uv run` (Recommended)**
+
+You don't need to manually activate the virtual environment:
+
+```bash
+uv run jupyter-book build --site
+```
+
+**Option 2: After Activating Virtual Environment**
+
+```bash
+cd portfolio
+jupyter-book build --site
+```
+
+For more detailed information, refer to the [Jupyter Book v2 Documentation](https://jupyterbook.org/en/stable/build/index.html).
+
+### View Built Pages Locally
+
+After building, use the `jupyter-book start` command to preview the site locally:
+
+```bash
+uv run jupyter-book start portfolio/
+```
+
+Or, if your virtual environment is activated:
+
+```bash
+jupyter-book start portfolio/
+```
+
+This will automatically open the site in your default browser. By default, it serves on `http://localhost:8000`.
+
+For more details, see the [Jupyter Book Local Preview documentation](https://jupyterbook.org/stable/get-started/build-websites/)
+
+### Clean Previous Builds
+
+To remove previous builds:
+
+```bash
+uv run jupyter-book clean portfolio/
+```
+
+Or, if your virtual environment is activated:
+
+```bash
+jupyter-book clean portfolio/
+```
+
+## Project Structure
+
+```
+portfolio/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml          # GitHub Actions workflow for deployment
+├── portfolio/
+│   ├── _build/                 # Built site (generated, not tracked in git)
+│   ├── automation/             # Automation tools section
+│   │   ├── overview.md
+│   │   └── python-tools.md
+│   ├── curricular/             # Curricular materials section
+│   │   ├── overview.md
+│   │   └── fye-materials.md
+│   ├── interactive/            # Interactive materials section
+│   │   ├── overview.md
+│   │   └── github-pages-projects.md
+│   ├── intro.md                # Landing page
+│   └── myst.yml                # Jupyter Book configuration
+├── pyproject.toml              # Project metadata
+├── requirements.txt            # Python dependencies
+└── README.md                   # This file
+```
+
+## Deployment
+
+The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch via GitHub Actions.
+
+### Manual Deployment
+
+To deploy manually:
+
+1. Build the book from the portfolio directory:
+   ```bash
+   cd portfolio
+   jupyter-book build --site
+   ```
+
+2. Push changes to GitHub:
+   ```bash
+   cd ..
+   git add .
+   git commit -m "Update portfolio content"
+   git push origin main
+   ```
+
+The GitHub Actions workflow will automatically build and deploy the site to GitHub Pages.
+
+## Customization
+
+- **Content:** Edit markdown files in `portfolio/`
+- **Navigation:** Update table of contents in `portfolio/myst.yml`
+- **Styling:** Customize in `portfolio/myst.yml` under `site.options`
+- **Logo/Favicon:** Replace `site_logo.png` and `favicon.ico`
+
+## License
+
+This project is licensed under the MIT License for code and CC-BY-4.0 for content - see individual files for details.
+
+## Contact
+
+**Kory Pritchett**
+
+- LinkedIn: [linkedin.com/in/kory-pritchett/](https://www.linkedin.com/in/kory-pritchett-185772142/)
+- GitHub: [github.com/kpritche](https://github.com/kpritche)
+
+---
