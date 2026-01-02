@@ -42,7 +42,7 @@ jobs:
       - name: Build Jupyter Book
         working-directory: portfolio
         run: |
-          jupyter-book build --site
+          uv run jupyter-book build --site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
