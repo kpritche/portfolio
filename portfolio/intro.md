@@ -62,7 +62,6 @@ Public-facing educational resources hosted on **GitHub Pages**, featuring intera
 
 I'm passionate about creating transformative educational experiences through technology and best practices in curriculum design. Let's work together!
 
-- **Email:** [kory.pritchett@email.com](mailto:kory.pritchett@email.com)
 - **LinkedIn:** [linkedin.com/in/kory-pritchett/](https://www.linkedin.com/in/kory-pritchett/)
 - **GitHub:** [github.com/kpritche](https://github.com/kpritche)
 

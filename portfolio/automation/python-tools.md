@@ -95,13 +95,13 @@ Instructors needed weekly progress reports for 200+ students, requiring manual g
 
 Created an automated system that:
 
-✅ Pulls student performance data from CSV files  
-✅ Generates personalized HTML email reports using templates  
-✅ Includes visualizations (grade charts, progress indicators)  
-✅ Sends batch emails with error handling and retry logic  
-✅ Tracks delivery status and generates send logs  
-✅ Supports dry-run mode for testing  
-✅ Configurable templates and schedule
+Pulls student performance data from CSV files  
+Generates personalized HTML email reports using templates  
+Includes visualizations (grade charts, progress indicators)  
+Sends batch emails with error handling and retry logic  
+Tracks delivery status and generates send logs  
+Supports dry-run mode for testing  
+Configurable templates and schedule
 
 ### Technical Highlights
 
@@ -175,13 +175,13 @@ Tracking student GitHub activity across 50+ repositories for assignment complian
 
 Built a comprehensive tool that:
 
-✅ Authenticates with GitHub API  
-✅ Fetches repository data (commits, branches, contributors)  
-✅ Analyzes commit frequency and patterns  
-✅ Checks for assignment completion criteria  
-✅ Generates visual dashboards and reports  
-✅ Identifies students needing assistance  
-✅ Exports data for grade book import
+Authenticates with GitHub API  
+Fetches repository data (commits, branches, contributors)  
+Analyzes commit frequency and patterns  
+Checks for assignment completion criteria  
+Generates visual dashboards and reports  
+Identifies students needing assistance  
+Exports data for grade book import
 
 ### Technical Highlights
 
@@ -249,13 +249,13 @@ Managing hundreds of course files (syllabi, assignments, grades) across semester
 
 Developed an intelligent file management system that:
 
-✅ Monitors directories for new files  
-✅ Automatically organizes files by type and date  
-✅ Creates systematic folder structures  
-✅ Performs incremental backups to cloud storage  
-✅ Detects duplicate files  
-✅ Archives old semesters automatically  
-✅ Generates organization reports
+Monitors directories for new files  
+Automatically organizes files by type and date  
+Creates systematic folder structures  
+Performs incremental backups to cloud storage  
+Detects duplicate files  
+Archives old semesters automatically  
+Generates organization reports
 
 ### Technical Highlights
 
@@ -300,10 +300,10 @@ class FileOrganizer(FileSystemEventHandler):
 
 ### Impact
 
-- **🗂️ Organization:** All files systematically organized
-- **🔐 Data Safety:** Automated daily backups
-- **⏱️ Time Savings:** No more manual file management
-- **🔍 Findability:** Locate any file in seconds
+- **Organization:** All files systematically organized
+- **Data Safety:** Automated daily backups
+- **⏱Time Savings:** No more manual file management
+- **Findability:** Locate any file in seconds
 
 ### Technologies
 
@@ -325,13 +325,13 @@ Gathering data from multiple education-related websites for research required ma
 
 Created a flexible web scraping tool that:
 
-✅ Scrapes data from multiple websites  
-✅ Handles both static and dynamic (JavaScript) content  
-✅ Respects robots.txt and implements polite scraping  
-✅ Extracts structured data (tables, lists, text)  
-✅ Cleans and normalizes collected data  
-✅ Stores data in structured format (CSV, JSON, SQLite)  
-✅ Runs on schedule or on-demand
+Scrapes data from multiple websites  
+Handles both static and dynamic (JavaScript) content  
+Respects robots.txt and implements polite scraping  
+Extracts structured data (tables, lists, text)  
+Cleans and normalizes collected data  
+Stores data in structured format (CSV, JSON, SQLite)  
+Runs on schedule or on-demand
 
 ### Technical Highlights
 
@@ -371,10 +371,10 @@ class WebScraper:
 
 ### Impact
 
-- **⏱️ Time Savings:** From 6 hours to 15 minutes
-- **🎯 Accuracy:** Eliminated transcription errors
-- **🔄 Automation:** Scheduled daily data collection
-- **📊 Scale:** Collecting from 30+ sources automatically
+- **Time Savings:** From 6 hours to 15 minutes
+- **Accuracy:** Eliminated transcription errors
+- **Automation:** Scheduled daily data collection
+- **Scale:** Collecting from 30+ sources automatically
 
 ### Technologies
 
@@ -398,13 +398,13 @@ class WebScraper:
 
 All my automation tools follow these principles:
 
-✅ **Robust Error Handling** — Gracefully handle edge cases and failures  
-✅ **Comprehensive Logging** — Track operations for debugging and auditing  
-✅ **Configuration Files** — Easy customization without code changes  
-✅ **Documentation** — Clear README files and inline comments  
-✅ **Testing** — Unit tests ensuring reliability  
-✅ **Version Control** — Git history tracking all changes  
-✅ **Type Hints** — Python type annotations for clarity
+**Robust Error Handling** — Gracefully handle edge cases and failures  
+**Comprehensive Logging** — Track operations for debugging and auditing  
+**Configuration Files** — Easy customization without code changes  
+**Documentation** — Clear README files and inline comments  
+**Testing** — Unit tests ensuring reliability  
+**Version Control** — Git history tracking all changes  
+**Type Hints** — Python type annotations for clarity
 
 ---
 
