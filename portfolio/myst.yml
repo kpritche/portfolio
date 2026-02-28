@@ -7,7 +7,6 @@ project:
   keywords: [curriculum development, python, data science, jupyter, education technology]
   authors:
     - name: Kory Pritchett
-      email: kory.pritchett@email.com
       url: https://www.linkedin.com/in/kory-pritchett/
   github: https://github.com/kpritche/portfolio
   license: CC-BY-4.0
