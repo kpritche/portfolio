@@ -25,6 +25,9 @@ project:
       title: Automation Tools
       children:
         - file: automation/python-tools.md
+        - file: automation/church-automation.md
+        - file: automation/doorway-counter.md
+        - file: automation/self-hosting.md
 
 site:
   template: book-theme

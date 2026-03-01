@@ -1,424 +1,75 @@
-# Featured Python Automation Tools
+# Featured Automation and Vision Projects
 
-This page showcases automation tools I've developed to solve real-world problems, streamline workflows, and eliminate repetitive tasks. These projects demonstrate clean code, error handling, testing, and practical problem-solving skills.
-
----
-
-## Project 1: Student Enrollment Data Processor
-
-**Category:** Data Processing & Transformation  
-**Language:** Python 3.11  
-**Key Libraries:** Pandas, openpyxl, pathlib
-
-### Problem Statement
-
-Managing student enrollment data across multiple Excel files with inconsistent formats was time-consuming and error-prone. Manual processing of 50+ files per semester took 8+ hours and introduced errors.
-
-### Solution
-
-Developed an automated pipeline that:
-
-✅ Reads multiple Excel files from a directory  
-✅ Validates data format and completeness  
-✅ Standardizes column names and data types  
-✅ Merges data from multiple sources  
-✅ Generates summary reports and statistics  
-✅ Exports cleaned data in multiple formats (CSV, Excel, JSON)  
-✅ Logs all operations and errors for debugging
-
-### Technical Highlights
-
-```python
-# Key features demonstrated
-- Path manipulation with pathlib
-- Exception handling for corrupt files
-- Data validation with custom functions
-- Pandas operations (merge, groupby, pivot)
-- Logging for troubleshooting
-- Configuration files for flexibility
-- Unit tests ensuring reliability
-```
-
-### Code Sample
-
-```python
-import pandas as pd
-from pathlib import Path
-import logging
-
-class EnrollmentProcessor:
-    def __init__(self, input_dir, output_dir):
-        self.input_dir = Path(input_dir)
-        self.output_dir = Path(output_dir)
-        self.logger = self._setup_logging()
-    
-    def process_all_files(self):
-        """Process all Excel files in input directory."""
-        files = list(self.input_dir.glob("*.xlsx"))
-        self.logger.info(f"Found {len(files)} files to process")
-        
-        all_data = []
-        for file in files:
-            try:
-                df = self._process_single_file(file)
-                all_data.append(df)
-            except Exception as e:
-                self.logger.error(f"Error processing {file.name}: {e}")
-        
-        return pd.concat(all_data, ignore_index=True)
-```
-
-### Impact
-
-- **⏱️ Time Savings:** Reduced from 8 hours to 5 minutes (99% reduction)
-- **🎯 Accuracy:** Eliminated human errors in data entry
-- **📈 Scalability:** Handles 500+ files without modification
-- **🔄 Reusability:** Adopted by colleagues for similar workflows
-
-### Technologies
-
-`Python` • `Pandas` • `openpyxl` • `pytest` • `logging`
+This page showcases complex automation and vision systems I've developed, demonstrating advanced Python engineering, AI integration, and real-time data processing.
 
 ---
 
-## Project 2: Automated Email Report Generator
+## Church Automation Suite
 
-**Category:** Communication Automation  
-**Language:** Python 3.11  
-**Key Libraries:** smtplib, email, jinja2, pandas
+**Category:** Workflow Automation and API Orchestration  
+**Stack:** Python • Google Vertex AI • Protocol Buffers • PCO API • Gmail API
 
-### Problem Statement
+**[View Project Details](church-automation.md)**
 
-Instructors needed weekly progress reports for 200+ students, requiring manual generation and individual emails. This consumed 4-6 hours weekly and reports were often delayed.
+### The Challenge
+Church production workflows often involve manual transcription of announcements from emails to presentation software (ProPresenter) and service planning platforms (Planning Center). This is time-consuming, repetitive, and prone to copy-paste errors.
 
-### Solution
+### The Solution
+A modular Python monorepo that orchestrates the entire weekly workflow:
+- **Announcements Engine:** Fetches emails via Gmail API, uses **Google Vertex AI** to summarize content into slide-ready text, and generates native ProPresenter `.probundle` files with automated QR codes.
+- **Service Slide Generator:** Syncs with Planning Center Online to fetch liturgy, lyrics, and scripture, then builds full ProPresenter `.pro` files by serializing data using **Protocol Buffers**.
+- **Bulletin Generator:** Produces print-ready PDFs from the same service plan data using ReportLab.
 
-Created an automated system that:
-
-Pulls student performance data from CSV files  
-Generates personalized HTML email reports using templates  
-Includes visualizations (grade charts, progress indicators)  
-Sends batch emails with error handling and retry logic  
-Tracks delivery status and generates send logs  
-Supports dry-run mode for testing  
-Configurable templates and schedule
-
-### Technical Highlights
-
-```python
-# Key features demonstrated
-- HTML email generation with Jinja2 templates
-- SMTP email sending with authentication
-- Batch processing with rate limiting
-- Error handling and retry mechanisms
-- Data visualization with matplotlib
-- Configuration management
-- Comprehensive logging
-```
-
-### Code Sample
-
-```python
-from jinja2 import Template
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-
-class ReportEmailer:
-    def __init__(self, config):
-        self.config = config
-        self.template = self._load_template()
-    
-    def send_report(self, student_data):
-        """Generate and send personalized report email."""
-        html_content = self.template.render(**student_data)
-        
-        msg = MIMEMultipart('alternative')
-        msg['Subject'] = f"Weekly Progress Report - {student_data['name']}"
-        msg['From'] = self.config['sender_email']
-        msg['To'] = student_data['email']
-        
-        msg.attach(MIMEText(html_content, 'html'))
-        
-        try:
-            self._send_email(msg)
-            return True
-        except Exception as e:
-            self.logger.error(f"Failed to send to {student_data['email']}: {e}")
-            return False
-```
-
-### Impact
-
-- **⏱️ Time Savings:** From 5 hours to 10 minutes per week
-- **📧 Reliability:** 99.5% successful delivery rate
-- **📊 Insights:** Better student engagement with timely feedback
-- **✨ Professional:** Polished, branded email templates
-
-### Technologies
-
-`Python` • `smtplib` • `Jinja2` • `matplotlib` • `pandas`
+### Key Technical Achievements
+- **Reverse Engineering:** Decoded and implemented the ProPresenter 7 binary format using Protocol Buffers for native file generation.
+- **LLM Integration:** Automated content summarization using Gemini/Vertex AI, reducing manual editing by 90%.
+- **Modular Architecture:** Built as a set of interoperable packages (shared, announcements, slides, bulletins) for long-term maintainability.
 
 ---
 
-## Project 3: GitHub Repository Analyzer
+## Doorway Counter: Real-time Attendance
 
-**Category:** API Integration & Reporting  
-**Language:** Python 3.11  
-**Key Libraries:** requests, pandas, matplotlib, github
+**Category:** Computer Vision and Physical Analytics  
+**Stack:** Python • YOLOv8 • ByteTrack • OpenCV • RTSP
 
-### Problem Statement
+**[View Project Details](doorway-counter.md)**
 
-Tracking student GitHub activity across 50+ repositories for assignment compliance was tedious. Manual checks were inconsistent and time-consuming.
+### The Challenge
+Accurately tracking attendance in high-traffic physical spaces without intrusive hardware or manual counting.
 
-### Solution
+### The Solution
+A computer vision application that processes live RTSP streams from security cameras to count entries and exits:
+- **Object Detection:** Utilizes **YOLOv8** (nano) for high-frequency person detection on edge-adjacent hardware.
+- **Object Tracking:** Implements **ByteTrack** to maintain consistent identity for individuals across frames, even through partial occlusions.
+- **Virtual Tripwire:** Uses a configurable "line zone" to determine crossing direction (In vs. Out) and logs real-time statistics.
 
-Built a comprehensive tool that:
-
-Authenticates with GitHub API  
-Fetches repository data (commits, branches, contributors)  
-Analyzes commit frequency and patterns  
-Checks for assignment completion criteria  
-Generates visual dashboards and reports  
-Identifies students needing assistance  
-Exports data for grade book import
-
-### Technical Highlights
-
-```python
-# Key features demonstrated
-- REST API integration with authentication
-- Rate limiting and pagination handling
-- Data analysis and visualization
-- Concurrent API requests for speed
-- Caching to reduce API calls
-- Comprehensive error handling
-```
-
-### Code Sample
-
-```python
-import requests
-from typing import List, Dict
-import pandas as pd
-
-class GitHubAnalyzer:
-    def __init__(self, token):
-        self.token = token
-        self.base_url = "https://api.github.com"
-        self.session = self._create_session()
-    
-    def analyze_repository(self, repo_full_name: str) -> Dict:
-        """Analyze a single repository and return metrics."""
-        commits = self._get_commits(repo_full_name)
-        branches = self._get_branches(repo_full_name)
-        
-        return {
-            'repo': repo_full_name,
-            'commit_count': len(commits),
-            'branch_count': len(branches),
-            'last_commit_date': commits[0]['commit']['author']['date'],
-            'contributors': self._count_contributors(commits)
-        }
-```
-
-### Impact
-
-- **⏱️ Time Savings:** From 3 hours to 2 minutes per class
-- **📊 Better Insights:** Identify struggling students early
-- **🔍 Compliance:** Automatic verification of requirements
-- **📈 Analytics:** Track engagement patterns over semester
-
-### Technologies
-
-`Python` • `requests` • `PyGithub` • `pandas` • `matplotlib`
+### Key Technical Achievements
+- **Optimization:** Achieved real-time performance on modest hardware by optimizing detection confidence and frame skip logic.
+- **Calibration Tooling:** Developed a utility to sweep and test multiple virtual line placements against ground-truth footage to maximize accuracy.
+- **Robust Tracking:** Solved common "double counting" issues by tuning tracking persistence and spatial thresholds.
 
 ---
 
-## Project 4: File Organization & Backup System
+## Administrative Automation Tools
 
-**Category:** Workflow Automation  
-**Language:** Python 3.11  
-**Key Libraries:** pathlib, shutil, schedule, watchdog
+In addition to large-scale suites, I maintain a library of utilities that solve critical educational administrative challenges.
 
-### Problem Statement
+### Student Data Pipeline (Pandas/openpyxl)
+Automated the ingestion of enrollment data from disparate sources (LMS, Registrar, Survey tools), reducing a 4-hour manual process to a 10-second script. Includes robust validation and discrepancy logging.
 
-Managing hundreds of course files (syllabi, assignments, grades) across semesters was chaotic. Finding specific files was difficult and no systematic backup existed.
-
-### Solution
-
-Developed an intelligent file management system that:
-
-Monitors directories for new files  
-Automatically organizes files by type and date  
-Creates systematic folder structures  
-Performs incremental backups to cloud storage  
-Detects duplicate files  
-Archives old semesters automatically  
-Generates organization reports
-
-### Technical Highlights
-
-```python
-# Key features demonstrated
-- File system monitoring with watchdog
-- Automated file organization logic
-- Incremental backup strategies
-- Duplicate detection using hashing
-- Scheduled tasks with schedule library
-- Logging and notification system
-```
-
-### Code Sample
-
-```python
-from pathlib import Path
-import shutil
-from datetime import datetime
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
-
-class FileOrganizer(FileSystemEventHandler):
-    def __init__(self, watch_dir, organized_dir):
-        self.watch_dir = Path(watch_dir)
-        self.organized_dir = Path(organized_dir)
-    
-    def on_created(self, event):
-        """Handle new file creation event."""
-        if event.is_directory:
-            return
-        
-        file_path = Path(event.src_path)
-        destination = self._determine_location(file_path)
-        
-        try:
-            shutil.move(str(file_path), str(destination))
-            print(f"Organized: {file_path.name} → {destination}")
-        except Exception as e:
-            print(f"Error organizing {file_path.name}: {e}")
-```
-
-### Impact
-
-- **Organization:** All files systematically organized
-- **Data Safety:** Automated daily backups
-- **⏱Time Savings:** No more manual file management
-- **Findability:** Locate any file in seconds
-
-### Technologies
-
-`Python` • `pathlib` • `watchdog` • `schedule` • `hashlib`
+### GitHub Course Manager (PyGithub/REST)
+A tool to audit student repository compliance across 500+ students. It automatically checks for specific commit patterns, file structures, and last-activity timestamps to flag students needing proactive outreach.
 
 ---
 
-## Project 5: Web Scraping Data Aggregator
+## Technical Standards
 
-**Category:** Web Scraping & Data Collection  
-**Language:** Python 3.11  
-**Key Libraries:** BeautifulSoup, requests, selenium, pandas
-
-### Problem Statement
-
-Gathering data from multiple education-related websites for research required manual copying and pasting from dozens of pages. This was tedious and introduced transcription errors.
-
-### Solution
-
-Created a flexible web scraping tool that:
-
-Scrapes data from multiple websites  
-Handles both static and dynamic (JavaScript) content  
-Respects robots.txt and implements polite scraping  
-Extracts structured data (tables, lists, text)  
-Cleans and normalizes collected data  
-Stores data in structured format (CSV, JSON, SQLite)  
-Runs on schedule or on-demand
-
-### Technical Highlights
-
-```python
-# Key features demonstrated
-- HTML parsing with BeautifulSoup
-- Dynamic content handling with Selenium
-- Rate limiting and politeness
-- Data extraction and cleaning
-- Error handling for network issues
-- Database storage for persistence
-```
-
-### Code Sample
-
-```python
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-
-class WebScraper:
-    def __init__(self, base_url, headers=None):
-        self.base_url = base_url
-        self.headers = headers or {'User-Agent': 'Educational Research Bot'}
-        self.session = requests.Session()
-    
-    def scrape_table(self, url: str) -> pd.DataFrame:
-        """Scrape HTML table from URL and return as DataFrame."""
-        response = self.session.get(url, headers=self.headers)
-        response.raise_for_status()
-        
-        soup = BeautifulSoup(response.content, 'html.parser')
-        table = soup.find('table', class_='data-table')
-        
-        return pd.read_html(str(table))[0]
-```
-
-### Impact
-
-- **Time Savings:** From 6 hours to 15 minutes
-- **Accuracy:** Eliminated transcription errors
-- **Automation:** Scheduled daily data collection
-- **Scale:** Collecting from 30+ sources automatically
-
-### Technologies
-
-`Python` • `BeautifulSoup` • `Selenium` • `requests` • `pandas`
+All projects listed here adhere to professional engineering standards:
+- **Type Safety:** Extensive use of Python type hinting.
+- **Clean Code:** Consistent styling (Black/Ruff) and modular design.
+- **Documentation:** Self-documenting code with clear READMEs for deployment.
+- **Validation:** Empirical testing against real-world data and edge cases.
 
 ---
 
-## Additional Automation Projects
-
-### Other Tools in My Arsenal
-
-- **Grade Calculator & Analytics** — Automated grade computation with statistical analysis
-- **Canvas LMS Integration** — Bulk operations on Canvas Learning Management System
-- **PDF Report Generator** — Automated creation of formatted PDF reports
-- **Survey Data Processor** — Aggregate and analyze survey responses
-- **Attendance Tracker** — Automated attendance recording and reporting
-
----
-
-## Development Principles
-
-All my automation tools follow these principles:
-
-**Robust Error Handling** — Gracefully handle edge cases and failures  
-**Comprehensive Logging** — Track operations for debugging and auditing  
-**Configuration Files** — Easy customization without code changes  
-**Documentation** — Clear README files and inline comments  
-**Testing** — Unit tests ensuring reliability  
-**Version Control** — Git history tracking all changes  
-**Type Hints** — Python type annotations for clarity
-
----
-
-## Code Quality Standards
-
-I maintain high code quality through:
-
-- **Black** for consistent code formatting
-- **Ruff** for linting and style checking
-- **pytest** for comprehensive testing
-- **mypy** for static type checking
-- **pre-commit hooks** preventing bad commits
-- **Documentation** with docstrings and README files
-
----
-
-[← Back to Automation Overview](overview.md) | [View Curricular Materials →](../curricular/overview.md)
+[Back to Automation Overview](overview.md) | [View Curricular Materials](../curricular/overview.md)

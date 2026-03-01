@@ -150,8 +150,8 @@ The site automatically builds and deploys to GitHub Pages when changes are pushe
 
 To enable automatic deployment, configure your repository settings:
 
-1. Go to your repository **Settings** → **Pages**
-2. Under "Build and deployment" → "Source", select **"Deploy from a branch"**
+1. Go to your repository **Settings** and select **Pages**
+2. Under "Build and deployment" and "Source", select **"Deploy from a branch"**
 3. Choose the **`gh-pages`** branch
 4. Leave the folder as **`/ (root)`**
 5. Click **Save**

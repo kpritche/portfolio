@@ -8,32 +8,25 @@ I develop **Python-based automation solutions** that streamline workflows, elimi
 
 Effective automation should:
 
-**Save Time** — Reduce manual work and free up cognitive resources
-
-**Increase Reliability** — Eliminate human error in repetitive tasks
-
-**Scale Efficiently** — Handle growing workloads without proportional effort
-
-**Be Maintainable** — Well-documented, testable, and easy to modify
-
-**Provide Value** — Solve real problems with measurable impact
+- **Save Time:** Reduce manual work and free up cognitive resources
+- **Increase Reliability:** Eliminate human error in repetitive tasks
+- **Scale Efficiently:** Handle growing workloads without proportional effort
+- **Be Maintainable:** Well-documented, testable, and easy to modify
+- **Provide Value:** Solve real problems with measurable impact
 
 ## Technical Expertise
 
 My automation work demonstrates proficiency in:
 
-- **Python Programming** — Core language for all automation scripts
-- **File I/O & Data Processing** — Handling various file formats (CSV, JSON, Excel, PDF)
-- **Web Scraping** — Extracting data from web sources (BeautifulSoup, Selenium)
-- **API Integration** — Working with REST APIs and third-party services
-- **Task Scheduling** — Automated execution using cron, Windows Task Scheduler
-- **Error Handling** — Robust exception handling and logging
-- **Testing** — Unit tests and integration tests for reliability
-- **Version Control** — Git workflows and collaborative development
+- **Generative AI Integration:** Implementing LLMs (Vertex AI) for content summarization and generation
+- **Computer Vision and Analytics:** Real-time detection and tracking (YOLOv8, ByteTrack) for spatial data
+- **API Integration:** Orchestrating data between Gmail, Planning Center, and custom binary formats
+- **Python Programming:** Core language for all automation scripts
+- **Infrastructure Management:** Self-hosting and server administration via Docker and Linux
 
 ## Common Use Cases
 
-### Data Processing & Transformation
+### Data Processing and Transformation
 - Batch processing of student data files
 - Converting between data formats
 - Cleaning and validating datasets
@@ -50,7 +43,7 @@ My automation work demonstrates proficiency in:
 - Batch operations on multiple files
 - Integration between different systems
 
-### Reporting & Analytics
+### Reporting and Analytics
 - Automated report generation
 - Data visualization pipelines
 - Performance metrics dashboards
@@ -60,7 +53,10 @@ My automation work demonstrates proficiency in:
 
 ## Featured Projects
 
-[View Featured Automation Tools →](python-tools.md)
+- [View Featured Automation Tools](python-tools.md)
+- [View Computer Vision Projects](doorway-counter.md)
+- [View Church Automation Suite](church-automation.md)
+- [View Self-Hosting Infrastructure](self-hosting.md)
 
 ---
 
@@ -73,4 +69,4 @@ My automation work demonstrates proficiency in:
 
 ---
 
-[← Back to Portfolio Home](../intro.md)
+[Back to Portfolio Home](../intro.md)

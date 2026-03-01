@@ -1,17 +1,21 @@
-# Welcome to My Professional Portfolio
+# Welcome to Kory's Portfolio
 
 ## About Me
 
-I am an experienced **Curriculum Developer** with a strong foundation in Python programming, data science, and educational technology. I specialize in creating engaging, interactive, and evidence-based learning experiences that empower students to master complex concepts.
+I am an experienced **Curriculum Developer** with a strong foundation in Python programming, educational technology, server and network administration, and Audio/Visual production. I specialize in creating engaging, interactive, and evidence-based learning experiences that empower students to master complex concepts. I enjoy solving challenging problems that require technical solutions and optimizing and automating wherever possible.
 
 ### Core Competencies
 
 - **Curriculum Design & Development** — Designing and implementing comprehensive courses for first-year engineering students
 - **Python Programming** — Developing tools, scripts, and interactive applications
-- **Data Science & Analytics** — Using data to inform educational decisions
 - **Interactive Learning Materials** — Building engaging content with Jupyter, MyST, and GitHub Pages
 - **Educational Technology** — Leveraging modern tools to enhance student learning outcomes
-- **Course Management** — Teaching and mentoring students in engineering fundamentals
+- **Workflow Automation & API Integration** — Orchestrating complex data flows between disparate platforms like Gmail, Planning Center, and ProPresenter to eliminate manual entry.
+- **Generative AI & LLM Implementation** — Integrating modern AI (Google Vertex AI) into production pipelines for automated content summarization and generation.
+- **AV Systems Automation** — Specialized expertise in production technology, including reverse-engineering binary formats (Protocol Buffers) and building custom systems integrations.
+- **Full-Stack Tooling & Repo Management** — Designing robust, modular Python architectures and CLI tools that prioritize maintainability and developer experience.
+- **Computer Vision & Real-time Analytics** — Developing edge-compatible detection and tracking systems (YOLOv8, ByteTrack) for physical space analytics and attendance tracking.
+- **Infrastructure & Self-Hosting** — Managing private cloud infrastructure (Docker, Linux) for data sovereignty, security, and testing emerging technologies.
 
 ---
 
@@ -22,17 +26,17 @@ Explore my portfolio across three primary areas:
 ### Curricular Materials
 Materials I've developed for **First-Year Engineering (FYE) courses** at Purdue University, including lectures, problem sets, and assessments designed to build foundational engineering competencies.
 
-**[View Curricular Projects →](curricular/overview.md)**
+**[View Curricular Projects](curricular/overview.md)**
 
 ### Interactive Course Materials
 Public-facing educational resources hosted on **GitHub Pages**, featuring interactive visualizations, live code examples, and hands-on learning modules for diverse audiences.
 
-**[View Interactive Projects →](interactive/overview.md)**
+**[View Interactive Projects](interactive/overview.md)**
 
 ### Automation Tools
 **Python-based automation** tools and utilities I've developed to streamline workflows, improve educational processes, and solve complex technical challenges.
 
-**[View Automation Projects →](automation/overview.md)**
+**[View Automation Projects](automation/overview.md)**
 
 ---
 
@@ -50,11 +54,15 @@ Public-facing educational resources hosted on **GitHub Pages**, featuring intera
 
 **Languages & Frameworks:** Python • JavaScript • Markdown • YAML
 
+**AI & Vision:** Vertex AI • YOLOv8 • ByteTrack • OpenCV
+
+**Protocols & Infrastructure:** Protocol Buffers (gRPC) • Docker • Linux • REST APIs
+
 **Education & Documentation:** Jupyter Notebook • MyST • Jupyter Book • GitHub Pages
 
 **Data & Analysis:** Pandas • NumPy • Matplotlib • Plotly
 
-**Tools & Platforms:** GitHub • Git • Jupyter Lab • VS Code
+**Tools & Platforms:** GitHub • Git • VS Code • UV
 
 ---
 
@@ -64,5 +72,3 @@ I'm passionate about creating transformative educational experiences through tec
 
 - **LinkedIn:** [linkedin.com/in/kory-pritchett/](https://www.linkedin.com/in/kory-pritchett/)
 - **GitHub:** [github.com/kpritche](https://github.com/kpritche)
-
-
