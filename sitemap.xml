@@ -22,4 +22,13 @@
   <url>
     <loc>http://localhost:3000/python-tools</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/church-automation</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/doorway-counter</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/self-hosting</loc>
+  </url>
 </urlset>

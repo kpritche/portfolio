@@ -8,27 +8,23 @@ I create **dynamic, web-based learning experiences** that bring concepts to life
 
 Interactive materials offer distinct advantages:
 
-**Active Engagement** — Students learn by doing, not just reading
-
-**Immediate Feedback** — Instant results reinforce learning
-
-**Exploration & Discovery** — Students can experiment and explore concepts at their own pace
-
-**Accessibility** — Web-based, no installation required
-
-**Scalability** — Reach thousands of learners worldwide
+- **Active Engagement:** Students learn by doing, not just reading
+- **Immediate Feedback:** Instant results reinforce learning
+- **Exploration and Discovery:** Students can experiment and explore concepts at their own pace
+- **Accessibility:** Web-based, no installation required
+- **Scalability:** Reach thousands of learners worldwide
 
 ## Technologies Used
 
 My interactive materials leverage cutting-edge educational technology:
 
-- **Jupyter Notebooks** — Live code, equations, visualizations
-- **JupyterLab** — Modern interactive computing environment
-- **MyST Markdown** — Enhanced markdown for scientific content
-- **Jupyter Book** — Beautiful, publication-quality web books
-- **GitHub Pages** — Free, reliable hosting
-- **Plotly & Matplotlib** — Interactive data visualizations
-- **Thebe** — Live code execution in the browser
+- **Jupyter Notebooks:** Live code, equations, visualizations
+- **JupyterLab:** Modern interactive computing environment
+- **MyST Markdown:** Enhanced markdown for scientific content
+- **Jupyter Book:** Beautiful, publication-quality web books
+- **GitHub Pages:** Free, reliable hosting
+- **Plotly and Matplotlib:** Interactive data visualizations
+- **Thebe:** Live code execution in the browser
 
 ## Types of Interactive Materials
 
@@ -48,7 +44,7 @@ Comprehensive, navigable online textbooks with embedded interactivity, equations
 
 ## Featured Projects
 
-[View Featured Interactive Materials →](github-pages-projects.md)
+[View Featured Interactive Materials](github-pages-projects.md)
 
 ---
 
@@ -61,4 +57,4 @@ Comprehensive, navigable online textbooks with embedded interactivity, equations
 
 ---
 
-[← Back to Portfolio Home](../intro.md)
+[Back to Portfolio Home](../intro.md)

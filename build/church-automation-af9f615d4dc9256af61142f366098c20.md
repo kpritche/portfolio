@@ -1,0 +1,69 @@
+# Church Automation Suite
+
+The **Church Automation Suite** is a high-performance Python monorepo designed to automate the complex, repetitive workflows of church production teams. By integrating multiple APIs and reverse-engineering proprietary formats, it reduces a 4-hour weekly manual process to less than 15 minutes.
+
+## Overview
+
+Modern church services rely on several disparate platforms:
+- **Gmail** for announcement intake.
+- **Planning Center Online (PCO)** for service orders and liturgy.
+- **ProPresenter 7** for live visual presentation.
+
+This suite acts as the "connective tissue," using AI and automated serialization to move data seamlessly between these systems.
+
+---
+
+```{note}
+**Technical Deep Dive:** This project required reverse-engineering the ProPresenter 7 binary format. I used a custom Protocol Buffer implementation to ensure native file compatibility without requiring the ProPresenter application to be running.
+```
+
+## Technical Architecture
+
+The project is structured as a **modular monorepo** using `setuptools` and `pyproject.toml` for independent package management.
+
+### Core Modules
+- **`announcements`**: Fetches emails, parses HTML, summarizes content via **Vertex AI**, and generates `.probundle` files.
+- **`slides`**: Connects to PCO, parses lyrics/scripture (PDF/HTML), and generates native `.pro` files using **Protocol Buffers**.
+- **`bulletins`**: Extracts service data to generate print-ready PDFs via **ReportLab**.
+- **`shared`**: Centralized path management and API credential handling.
+
+---
+
+## Technical Challenges and Solutions
+
+### 1. Reverse Engineering ProPresenter 7
+ProPresenter 7 uses a complex binary format for its `.pro` files. 
+- **Solution:** I reverse-engineered the data structures and implemented a native Python writer using **Google Protocol Buffers**. This allows the suite to generate "pixel-perfect" slides with precise control over text scaling, shape elements, and media cues without ever opening the ProPresenter app.
+
+### 2. Intelligent Content Summarization
+Announcement emails are often wordy and unsuitable for slides.
+- **Solution:** Integrated **Google Vertex AI (Gemini)** to perform context-aware summarization. The system extracts key dates, locations, and calls-to-action, then formats them into concise, slide-ready bullet points.
+
+### 3. API Orchestration
+Managing state across Gmail, PCO, and local filesystems.
+- **Solution:** Built a robust "Unified Runner" (`run_all.py`) that handles OAuth2 flows, caches API responses to stay within rate limits, and uses a centralized path utility to manage output across different workstations.
+
+---
+
+## Impact and Results
+
+| Metric | Before Automation | After Automation |
+| :--- | :--- | :--- |
+| **Weekly Prep Time** | 4 - 5 Hours | < 15 Minutes |
+| **Error Rate** | Moderate (Copy-paste errors) | Near Zero |
+| **Visual Consistency** | Variable | 100% (Template-driven) |
+| **QR Code Creation** | Manual (Browser-based) | Fully Automated |
+
+---
+
+## Technical Stack
+
+- **Language:** Python 3.11+
+- **APIs:** PCO (pypco), Gmail (google-api-python-client), Vertex AI (google-genai)
+- **Data Formats:** Protocol Buffers (.proto), JSON, YAML
+- **Libraries:** ReportLab (PDF), BeautifulSoup4 (Parsing), Jinja2 (Templating)
+- **Tooling:** UV, Pytest, Black/Ruff
+
+---
+
+[Back to Automation Tools](python-tools.md)

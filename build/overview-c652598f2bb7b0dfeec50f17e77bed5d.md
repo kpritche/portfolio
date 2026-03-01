@@ -18,25 +18,25 @@ I believe in creating **inclusive, engaging, and practical** learning experience
 
 My curricular development work includes:
 
-### Lecture Materials & Presentations
+### Lecture Materials and Presentations
 - Comprehensive slide decks with clear learning objectives
 - Worked examples demonstrating key concepts
 - Interactive polling questions and discussion prompts
 - Visual aids and animations to enhance understanding
 
-### Problem Sets & Assignments
+### Problem Sets and Assignments
 - Scaffolded problem sets building from basic to advanced
 - Real-world application problems
 - Collaborative group activities
 - Structured rubrics for assessment
 
-### Assessments & Quizzes
+### Assessments and Quizzes
 - Formative assessments to gauge understanding
 - Summative exams aligned with learning outcomes
 - Multiple question formats (MC, short answer, problem-solving)
 - Detailed answer keys and grading rubrics
 
-### Study Guides & Resources
+### Study Guides and Resources
 - Comprehensive review materials
 - Quick reference guides
 - Practice problems with solutions
@@ -46,7 +46,7 @@ My curricular development work includes:
 
 ## Featured Projects
 
-[View Featured FYE Materials →](fye-materials.md)
+[View Featured FYE Materials](fye-materials.md)
 
 ---
 
@@ -59,4 +59,4 @@ My curricular development work includes:
 
 ---
 
-[← Back to Portfolio Home](../intro.md)
+[Back to Portfolio Home](../intro.md)
