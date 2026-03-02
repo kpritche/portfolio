@@ -11,13 +11,10 @@
     <loc>http://localhost:3000/fye-materials</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/interactive-projects</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/overview-1</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/github-pages-projects</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/overview-2</loc>
   </url>
   <url>
     <loc>http://localhost:3000/python-tools</loc>
@@ -26,9 +23,18 @@
     <loc>http://localhost:3000/church-automation</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/doorway-counter</loc>
+    <loc>http://localhost:3000/self-hosting</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/self-hosting</loc>
+    <loc>http://localhost:3000/overview-2</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/live-audio-systems</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/network-infrastructure</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/automation-control</loc>
   </url>
 </urlset>

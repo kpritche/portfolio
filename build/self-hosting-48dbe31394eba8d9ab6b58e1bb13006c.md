@@ -8,8 +8,7 @@ Managing private cloud infrastructure for data sovereignty, security, and the te
 
 I believe in maintaining a robust, secure, and self-hosted digital environment that prioritizes:
 
-- **Data Sovereignty:** Maintaining full ownership and control over personal and professional data.
-- **Privacy and Security:** Implementing industry-standard security practices, including reverse proxies and encrypted backups.
+- **Data Privacy:** Maintaining full ownership and control over personal and professional data.
 - **Continuous Learning:** Using the laboratory environment to test new software, networking configurations, and automation scripts.
 
 ---
