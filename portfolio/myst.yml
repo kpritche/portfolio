@@ -1,6 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  edit_url: null
   id: 9a7d3098-be75-4c96-aee7-0c09e0bc9800
   title: Kory Pritchett's Professional Portfolio
   description: A collection of my professional and personal projects in curriculum development, automation projects, and live production & systems engineering.
@@ -8,9 +9,9 @@ project:
   authors:
     - name: Kory Pritchett
       url: https://www.linkedin.com/in/kory-pritchett-185772142
-  github: https://github.com/kpritche/portfolio
+  # github: https://github.com/kpritche/portfolio
   license: CC-BY-4.0
-  
+
   toc:
     - file: index.md
     - file: curricular/overview.md
@@ -40,7 +41,6 @@ site:
   options:
     # Use camelCase key expected by MyST: baseUrl
     baseUrl: /portfolio
-
   
   nav:
     - title: Home
