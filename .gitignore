@@ -68,3 +68,4 @@ Thumbs.db
 *.log
 .mypy_cache/
 .ruff_cache/
+GEMINI.md

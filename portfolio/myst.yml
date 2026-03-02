@@ -4,10 +4,10 @@ project:
   id: 9a7d3098-be75-4c96-aee7-0c09e0bc9800
   title: Kory Pritchett's Professional Portfolio
   description: A collection of my professional and personal projects in curriculum development, interactive course materials, and automation tools.
-  keywords: [curriculum development, python, data science, jupyter, education technology]
+  keywords: [curriculum development, python, jupyter, education technology, automation, interactive materials, github pages]
   authors:
     - name: Kory Pritchett
-      url: https://www.linkedin.com/in/kory-pritchett/
+      url: https://www.linkedin.com/in/kory-pritchett-185772142
   github: https://github.com/kpritche/portfolio
   license: CC-BY-4.0
   
@@ -45,4 +45,4 @@ site:
     - title: GitHub
       url: https://github.com/kpritche
     - title: LinkedIn
-      url: https://www.linkedin.com/in/kory-pritchett/
+      url: https://www.linkedin.com/in/kory-pritchett-185772142
