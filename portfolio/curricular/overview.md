@@ -4,6 +4,7 @@
 
 As a curriculum developer for **First-Year Engineering (FYE)** at Purdue University, I have created comprehensive learning materials that help students build foundational engineering competencies. My work focuses on evidence-based instructional design, active learning strategies, and accessible content delivery.
 
+
 ## Teaching Philosophy
 
 I believe in creating **inclusive, engaging, and practical** learning experiences that:
@@ -14,48 +15,25 @@ I believe in creating **inclusive, engaging, and practical** learning experience
 - Promote active learning through hands-on activities
 - Foster student confidence and self-efficacy in STEM
 
-## Course Materials Developed
-
-My curricular development work includes:
-
-### Lecture Materials and Presentations
-- Comprehensive slide decks with clear learning objectives
-- Worked examples demonstrating key concepts
-- Interactive polling questions and discussion prompts
-- Visual aids and animations to enhance understanding
-
-### Problem Sets and Assignments
-- Scaffolded problem sets building from basic to advanced
-- Real-world application problems
-- Collaborative group activities
-- Structured rubrics for assessment
-
-### Assessments and Quizzes
-- Formative assessments to gauge understanding
-- Summative exams aligned with learning outcomes
-- Multiple question formats (MC, short answer, problem-solving)
-- Detailed answer keys and grading rubrics
-
-### Study Guides and Resources
-- Comprehensive review materials
-- Quick reference guides
-- Practice problems with solutions
-- Video tutorials and demonstrations
-
 ---
 
 ## Featured Projects
 
-[View Featured FYE Materials](fye-materials.md)
+### First-Year Engineering Materials
+Comprehensive learning materials for Purdue's FYE courses, including lectures and assessments.
+[**View FYE Materials**](fye-materials.md)
+
+### Interactive Learning Experiences
+Web-based, dynamic materials that use Jupyter and MyST to provide hands-on exploration.
+[**View Interactive Projects**](interactive-projects.md)
 
 ---
 
 ## Impact
 
-- **500+ students** engage with these materials annually
-- **Improved student outcomes** with consistent curriculum
-- **Positive feedback** from students and instructors
-- **Scalable resources** adopted across multiple course sections
+- **2500+ students** engage with these materials each semester
+- **Improved student outcomes** with over 95% student retenion to the second year
+- **Scalable resources** for excellence at scale
 
 ---
 

@@ -1,12 +1,17 @@
 # Welcome to Kory's Portfolio
 
 ## About Me
+
+:::{aside}
 ```{image} docs/kp_headshot.jpg
 :alt: A picture of me, Kory Pritchett. Welcome to my page!
-:align: right
+:width: 250px
 ```
+:::
 
 I am an experienced **Curriculum Developer** with a strong foundation in Python programming, educational technology, server and network administration, and Audio/Visual production. I specialize in creating engaging, interactive, and evidence-based learning experiences that empower students to master complex concepts. I enjoy solving challenging problems that require technical solutions and optimizing and automating wherever possible.
+
+**[Download My Resume (PDF)](docs/kp_resume.pdf)**
 
 ### Core Competencies
 
@@ -28,19 +33,19 @@ I am an experienced **Curriculum Developer** with a strong foundation in Python 
 Explore my portfolio across three primary areas:
 
 ### Curricular Materials
-Materials I've developed for **First-Year Engineering (FYE) courses** at Purdue University, including lectures, problem sets, and assessments designed to build foundational engineering competencies.
+Educational content developed for **First-Year Engineering (FYE)** at Purdue University and interactive, web-based learning resources hosted on **GitHub Pages**.
 
 **[View Curricular Projects](curricular/overview.md)**
 
-### Interactive Course Materials
-Public-facing educational resources hosted on **GitHub Pages**, featuring interactive visualizations, live code examples, and hands-on learning modules for diverse audiences.
-
-**[View Interactive Projects](interactive/overview.md)**
-
-### Automation Tools
-**Python-based automation** tools and utilities I've developed to streamline workflows, improve educational processes, and solve complex technical challenges.
+### Automation Projects
+**Python-based automation** tools and utilities developed to streamline workflows, improve educational processes, and solve complex technical challenges.
 
 **[View Automation Projects](automation/overview.md)**
+
+### Live Production & Systems Engineering
+Expertise in **technical production environments**, including live audio engineering (Allen & Heath), network infrastructure (Ubiquiti), and production automation (Bitfocus Companion).
+
+**[View Production Projects](production/overview.md)**
 
 ---
 
@@ -56,17 +61,19 @@ Public-facing educational resources hosted on **GitHub Pages**, featuring intera
 
 ## Technical Stack
 
-**Languages & Frameworks:** Python • JavaScript • Markdown • YAML
+**Languages & Frameworks:** Python • MATLAB • HTML • Markdown
 
-**AI & Vision:** Vertex AI • YOLOv8 • ByteTrack • OpenCV
-
-**Protocols & Infrastructure:** Protocol Buffers (gRPC) • Docker • Linux • REST APIs
+**Protocols & Infrastructure:** Docker • Linux • REST APIs
 
 **Education & Documentation:** Jupyter Notebook • MyST • Jupyter Book • GitHub Pages
 
 **Data & Analysis:** Pandas • NumPy • Matplotlib • Plotly
 
-**Tools & Platforms:** GitHub • Git • VS Code • UV
+**Tools & Platforms:** GitHub • VS Code • Gradescope • Brightspace • Canvas • UniFi/Ubiquiti Systems
+
+**Content Creation** Camtasia • Adobe Premier • Canva • WordPress
+
+**Audio/Visual** OBS Studio • Dante Audio • ProPresenter • BitFocus Companion • DMX Lighting • Allen & Heath Audio Equipment
 
 ---
 
@@ -76,3 +83,4 @@ I'm passionate about creating transformative educational experiences through tec
 
 - **LinkedIn:** [linkedin.com/in/kory-pritchett-185772142](https://www.linkedin.com/in/kory-pritchett-185772142)
 - **GitHub:** [github.com/kpritche](https://github.com/kpritche)
+- **Resume:** [View/Download PDF](docs/kp_resume.pdf)

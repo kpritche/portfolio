@@ -3,8 +3,8 @@ version: 1
 project:
   id: 9a7d3098-be75-4c96-aee7-0c09e0bc9800
   title: Kory Pritchett's Professional Portfolio
-  description: A collection of my professional and personal projects in curriculum development, interactive course materials, and automation tools.
-  keywords: [curriculum development, python, jupyter, education technology, automation, interactive materials, github pages]
+  description: A collection of my professional and personal projects in curriculum development, automation projects, and live production & systems engineering.
+  keywords: [curriculum development, python, jupyter, education technology, automation, live production, dlive, ubiquiti, systems integration]
   authors:
     - name: Kory Pritchett
       url: https://www.linkedin.com/in/kory-pritchett-185772142
@@ -12,22 +12,24 @@ project:
   license: CC-BY-4.0
   
   toc:
-    - file: intro.md
+    - file: index.md
     - file: curricular/overview.md
       title: Curricular Materials
       children:
         - file: curricular/fye-materials.md
-    - file: interactive/overview.md
-      title: Interactive Materials
-      children:
-        - file: interactive/github-pages-projects.md
+        - file: curricular/interactive-projects.md
     - file: automation/overview.md
-      title: Automation Tools
+      title: Automation Projects
       children:
         - file: automation/python-tools.md
         - file: automation/church-automation.md
-        - file: automation/doorway-counter.md
         - file: automation/self-hosting.md
+    - file: production/overview.md
+      title: Live Production & Systems Engineering
+      children:
+        - file: production/live-audio-systems.md
+        - file: production/network-infrastructure.md
+        - file: production/automation-control.md
 
 site:
   template: book-theme
@@ -38,11 +40,16 @@ site:
   options:
     # Use camelCase key expected by MyST: baseUrl
     baseUrl: /portfolio
+
   
   nav:
     - title: Home
-      url: /intro
+      url: /index
     - title: GitHub
       url: https://github.com/kpritche
     - title: LinkedIn
       url: https://www.linkedin.com/in/kory-pritchett-185772142
+
+  actions:
+    - title: Resume Download
+      url: /docs/kp_resume.pdf
