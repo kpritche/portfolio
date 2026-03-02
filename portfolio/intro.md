@@ -1,6 +1,10 @@
 # Welcome to Kory's Portfolio
 
 ## About Me
+```{image} docs/kp_headshot.jpg
+:alt: A picture of me, Kory Pritchett. Welcome to my page!
+:align: right
+```
 
 I am an experienced **Curriculum Developer** with a strong foundation in Python programming, educational technology, server and network administration, and Audio/Visual production. I specialize in creating engaging, interactive, and evidence-based learning experiences that empower students to master complex concepts. I enjoy solving challenging problems that require technical solutions and optimizing and automating wherever possible.
 
@@ -70,5 +74,5 @@ Public-facing educational resources hosted on **GitHub Pages**, featuring intera
 
 I'm passionate about creating transformative educational experiences through technology and best practices in curriculum design. Let's work together!
 
-- **LinkedIn:** [linkedin.com/in/kory-pritchett/](https://www.linkedin.com/in/kory-pritchett/)
+- **LinkedIn:** [linkedin.com/in/kory-pritchett-185772142](https://www.linkedin.com/in/kory-pritchett-185772142)
 - **GitHub:** [github.com/kpritche](https://github.com/kpritche)
