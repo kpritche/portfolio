@@ -12,6 +12,9 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -40,6 +43,7 @@ jobs:
       - name: Deploy to gh-pages branch
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
+        id: deployment
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: portfolio/_build/html
