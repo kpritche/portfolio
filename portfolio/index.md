@@ -50,7 +50,7 @@ Expertise in **technical production environments**, including live audio enginee
 
 ## Professional Highlights
 
-- Developed curriculum reaching **2,500+ engineering students per semester** across four first-year courses and 20+ sections
+- Developed curriculum reaching **2,600 engineering students per semester** across four first-year courses and 20+ sections
 - Created **interactive learning materials** reaching **thousands** of learners online
 - Automated critical production workflows, **cutting a 4–5 hour weekly task to under 15 minutes**
 - Designed and delivered **engaging technical content** across multiple platforms
