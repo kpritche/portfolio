@@ -6,7 +6,7 @@ I specialize in the design, implementation, and management of **complex live pro
 
 ## Core Capabilities
 
-- **Live Audio Engineering** — Expertise with Allen & Heath (dLive, SQ, Avantis) platforms and Dante digital audio networking.
+- **Live Audio Engineering** — Expertise with Allen & Heath (dLive, SQ, Qu) platforms and Dante digital audio networking.
 - **Network Infrastructure** — Designing and managing high-reliability Ubiquiti UniFi networks with VLAN segmentation for production traffic.
 - **Production Automation & Control** — Streamlining complex workflows using Bitfocus Companion, ProPresenter, and custom MIDI/OSC/TCP control systems.
 - **Systems Integration** — Converging disparate technical systems into cohesive, user-friendly operational environments.
@@ -16,15 +16,14 @@ I specialize in the design, implementation, and management of **complex live pro
 ## Technical Expertise
 
 ### Audio & Visual
-- **Mixing Consoles:** Allen & Heath dLive, SQ-Series, Avantis, Qu-Series.
-- **Digital Networking:** Dante (Level 2/3 certified), Waves SoundGrid, MADI.
-- **Presentation Systems:** ProPresenter (7+), PVP, ProVideoPlayer.
-- **Lighting Control:** DMX/RDM, Jands Vista, Lightkey, Art-Net/sACN.
+- **Mixing Consoles:** Allen & Heath dLive, SQ-Series, Qu-Series.
+- **Digital Networking:** Dante (proficient), MADI.
+- **Presentation Systems:** ProPresenter (7+).
+- **Lighting Control:** DMX/RDM, Art-Net/sACN.
 
 ### Infrastructure & Networking
-- **Hardware:** Ubiquiti UniFi/EdgeRouter, Cisco, Mikrotik.
-- **Architecture:** VLAN segmentation, OSPF, Site-to-Site VPNs, High-density Wireless.
-- **Power Management:** Sequenced power systems and remote monitoring.
+- **Hardware:** Ubiquiti UniFi/EdgeRouter.
+- **Architecture:** VLAN segmentation, WireGuard VPNs, high-density wireless.
 
 ### Automation & Control
 - **Platforms:** Bitfocus Companion (v2.x/3.x), Stream Deck, MIDI/OSC.

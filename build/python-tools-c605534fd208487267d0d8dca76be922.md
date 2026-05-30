@@ -1,13 +1,13 @@
-# Featured Automation and Vision Projects
+# Featured Automation Projects
 
-This page showcases complex automation and vision systems I've developed, demonstrating advanced Python engineering, AI integration, and real-time data processing.
+This page showcases complex automation systems I've developed, demonstrating advanced Python engineering, AI integration, and multi-platform data orchestration.
 
 ---
 
 ## Church Automation Suite
 
 **Category:** Workflow Automation and API Orchestration  
-**Stack:** Python • Google Vertex AI • Protocol Buffers • PCO API • Gmail API
+**Stack:** Python • Ollama / Llama 3.1 (self-hosted LLM) • Protocol Buffers • PCO API • Gmail API
 
 **[View Project Details](church-automation.md)**
 
@@ -16,37 +16,14 @@ Church production workflows often involve manual transcription of announcements 
 
 ### The Solution
 A modular Python monorepo that orchestrates the entire weekly workflow:
-- **Announcements Engine:** Fetches emails via Gmail API, uses **Google Vertex AI** to summarize content into slide-ready text, and generates native ProPresenter `.probundle` files with automated QR codes.
+- **Announcements Engine:** Fetches emails via Gmail API, uses a **self-hosted local LLM (Ollama / Llama 3.1)** to summarize content into slide-ready text, and generates native ProPresenter `.probundle` files with automated QR codes.
 - **Service Slide Generator:** Syncs with Planning Center Online to fetch liturgy, lyrics, and scripture, then builds full ProPresenter `.pro` files by serializing data using **Protocol Buffers**.
 - **Bulletin Generator:** Produces print-ready PDFs from the same service plan data using ReportLab.
 
 ### Key Technical Achievements
 - **Reverse Engineering:** Decoded and implemented the ProPresenter 7 binary format using Protocol Buffers for native file generation.
-- **LLM Integration:** Automated content summarization using Gemini/Vertex AI, reducing manual editing by 90%.
+- **LLM Integration:** Automated content summarization using a self-hosted local LLM (Ollama / Llama 3.1), migrated from a cloud API for cost control and data privacy.
 - **Modular Architecture:** Built as a set of interoperable packages (shared, announcements, slides, bulletins) for long-term maintainability.
-
----
-
-## Doorway Counter: Real-time Attendance
-
-**Category:** Computer Vision and Physical Analytics  
-**Stack:** Python • YOLOv8 • ByteTrack • OpenCV • RTSP
-
-**[View Project Details](doorway-counter.md)**
-
-### The Challenge
-Accurately tracking attendance in high-traffic physical spaces without intrusive hardware or manual counting.
-
-### The Solution
-A computer vision application that processes live RTSP streams from security cameras to count entries and exits:
-- **Object Detection:** Utilizes **YOLOv8** (nano) for high-frequency person detection on edge-adjacent hardware.
-- **Object Tracking:** Implements **ByteTrack** to maintain consistent identity for individuals across frames, even through partial occlusions.
-- **Virtual Tripwire:** Uses a configurable "line zone" to determine crossing direction (In vs. Out) and logs real-time statistics.
-
-### Key Technical Achievements
-- **Optimization:** Achieved real-time performance on modest hardware by optimizing detection confidence and frame skip logic.
-- **Calibration Tooling:** Developed a utility to sweep and test multiple virtual line placements against ground-truth footage to maximize accuracy.
-- **Robust Tracking:** Solved common "double counting" issues by tuning tracking persistence and spatial thresholds.
 
 ---
 

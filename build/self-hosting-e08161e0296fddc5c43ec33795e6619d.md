@@ -40,4 +40,4 @@ All infrastructure components are managed according to the following principles:
 
 ---
 
-[Back to Automation Overview](overview.md) | [Back to Portfolio Home](../intro.md)
+[Back to Automation Overview](overview.md) | [Back to Portfolio Home](../index.md)

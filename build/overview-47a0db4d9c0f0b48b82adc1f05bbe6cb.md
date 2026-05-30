@@ -31,10 +31,10 @@ Web-based, dynamic materials that use Jupyter and MyST to provide hands-on explo
 
 ## Impact
 
-- **2500+ students** engage with these materials each semester
-- **Improved student outcomes** with over 95% student retenion to the second year
+- **2,600 students** engage with these materials each semester across four first-year engineering courses and 20+ sections
+- **Improved student outcomes**, with over 95% student retention into the second year
 - **Scalable resources** for excellence at scale
 
 ---
 
-[Back to Portfolio Home](../intro.md)
+[Back to Portfolio Home](../index.md)
