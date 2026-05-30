@@ -16,7 +16,7 @@ This page serves as a record of curricular materials developed for First-Year En
     - Developing automations
     - Acting as devops for the organizational repositories that host the course website.
 - **Summary:** 
-    To more easily deliver content to over 2000 students across more than 20 class sections, we needed a unified delivery method for course content with robust source and version control. I proposed migrating our course content to a website hosted by GitHub pages, building off of the framework of the ENGR 133 course. I am leading the development of this website from a technical end and sharing the content writing responsibilities with my fellow curriculum developers.
+    To more easily deliver content to over 2,000 students across the course's many sections, we needed a unified delivery method for course content with robust source and version control. I proposed migrating our course content to a website hosted by GitHub pages, building off of the framework of the ENGR 133 course. I am leading the development of this website from a technical end and sharing the content writing responsibilities with my fellow curriculum developers.
 ---
 
 <!-- ## ENGR 132: Transforming Ideas to Innovation II
@@ -61,4 +61,4 @@ All materials developed for these courses adhere to the following standards:
 
 ---
 
-[Back to Curricular Overview](overview.md) | [View Interactive Materials](../interactive/overview.md)
+[Back to Curricular Overview](overview.md) | [View Interactive Materials](interactive-projects.md)

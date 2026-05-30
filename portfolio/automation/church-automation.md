@@ -22,7 +22,7 @@ This suite acts as the "connective tissue," using AI and automated serialization
 The project is structured as a **modular monorepo** using `setuptools` and `pyproject.toml` for independent package management.
 
 ### Core Modules
-- **`announcements`**: Fetches emails, parses HTML, summarizes content via **Vertex AI**, and generates `.probundle` files.
+- **`announcements`**: Fetches emails, parses HTML, summarizes content via a **self-hosted local LLM (Ollama / Llama 3.1)**, and generates `.probundle` files.
 - **`slides`**: Connects to PCO, parses lyrics/scripture (PDF/HTML), and generates native `.pro` files using **Protocol Buffers**.
 - **`bulletins`**: Extracts service data to generate print-ready PDFs via **ReportLab**.
 - **`shared`**: Centralized path management and API credential handling.
@@ -37,7 +37,7 @@ ProPresenter 7 uses a complex binary format for its `.pro` files.
 
 ### 2. Intelligent Content Summarization
 Announcement emails are often wordy and unsuitable for slides.
-- **Solution:** Integrated **Google Vertex AI (Gemini)** to perform context-aware summarization. The system extracts key dates, locations, and calls-to-action, then formats them into concise, slide-ready bullet points.
+- **Solution:** Integrated a **self-hosted local LLM (Ollama running Llama 3.1 8B)** to perform context-aware summarization. The system extracts key dates, locations, and calls-to-action, then formats them into concise, slide-ready bullet points. Originally built on a cloud API (Google Vertex AI), the summarizer was later migrated to a local model on homelab infrastructure — eliminating per-call cost and keeping congregation data on-premises.
 
 ### 3. API Orchestration
 Managing state across Gmail, PCO, and local filesystems.
@@ -59,7 +59,7 @@ Managing state across Gmail, PCO, and local filesystems.
 ## Technical Stack
 
 - **Language:** Python 3.11+
-- **APIs:** PCO (pypco), Gmail (google-api-python-client), Vertex AI (google-genai)
+- **APIs:** PCO (pypco), Gmail (google-api-python-client), Ollama (local LLM inference)
 - **Data Formats:** Protocol Buffers (.proto), JSON, YAML
 - **Libraries:** ReportLab (PDF), BeautifulSoup4 (Parsing), Jinja2 (Templating)
 - **Tooling:** UV, Pytest, Black/Ruff

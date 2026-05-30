@@ -14,15 +14,14 @@ I have extensive experience with the **Allen & Heath ecosystem**, from small-for
 
 The backbone of modern production is the network. I specialize in **Dante (Digital Audio Network Through Ethernet)** for low-latency, high-channel-count audio distribution.
 
-- **Clock Synchronization:** Managing primary/secondary clocking across multiple devices and networks.
-- **Multicast Management:** Configuring IGMP snooping and Queriers to optimize network traffic and prevent packet loss.
-- **Dante Domain Manager:** Implementing secure, routed Dante networks across different subnets.
+- **Clock Synchronization:** Managing primary/secondary clocking across multiple Dante devices.
+- **Multicast Management:** Configuring IGMP snooping and queriers to optimize network traffic and prevent packet loss.
+- **Network Segmentation:** Isolating Dante audio onto dedicated VLANs, separate from control and management traffic.
 
-## Signal Processing & Tools
+## Signal Processing & Mixing
 
-- **Waves SoundGrid:** Integrating SuperRack with dLive/SQ for low-latency VST processing.
-- **System Tuning:** Utilizing Smaart (v8/v9) for system alignment, phase correction, and SPL monitoring.
-- **RF Coordination:** Wireless Workbench/Wavetool for managing high-channel-count IEM and wireless microphone systems.
+- **On-Console Processing:** Leveraging the built-in EQ, dynamics, and FX engines of the dLive and SQ platforms to deliver full mixes without external outboard gear.
+- **Mix Workflow:** Building DCA/group structures and scene-based recalls so volunteer operators can run high-quality services with minimal training.
 
 ---
 

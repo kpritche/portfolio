@@ -20,7 +20,7 @@ I leverage **Bitfocus Companion** to bridge the gap between disparate production
 
 When off-the-shelf modules don't exist, I build them.
 - **Python-to-OSC Bridges:** Custom scripts to translate legacy protocols into modern control formats.
-- **Scheduled Tasks:** Automating system power-ups and shutdowns via network-controlled PDU (Power Distribution Units).
+- **Companion Integrations:** Custom button layouts and feedback logic that collapse multi-step technical sequences into single, labeled actions for volunteer operators.
 
 ---
 

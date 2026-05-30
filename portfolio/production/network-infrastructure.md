@@ -8,7 +8,7 @@ In a live environment, the network is as critical as the power. I design and mai
 
 - **VLAN Segmentation:** Isolating Dante (Audio), Control (Bitfocus/MIDI), and Management traffic to ensure stability and security.
 - **Redundancy:** Implementing STP/RSTP (Spanning Tree Protocol) correctly for redundant physical links without broadcast storms.
-- **Secure Remote Access:** Deploying Site-to-Site VPNs (L2TP/WireGuard) for remote system monitoring and troubleshooting.
+- **Secure Remote Access:** Deploying WireGuard-based VPNs for remote system monitoring and troubleshooting.
 
 ## Wireless Infrastructure
 
@@ -18,8 +18,8 @@ In a live environment, the network is as critical as the power. I design and mai
 ## Hardware Expertise
 
 - **UniFi Dream Machine (UDM-Pro/SE):** Centralized management for security, routing, and switching.
-- **UniFi Pro/Enterprise Switches:** Utilizing 10Gbps SFP+ uplinks for backbone connectivity.
-- **EdgeSwitch/EdgeRouter:** Advanced L3 routing and carrier-grade switching for complex topologies.
+- **UniFi Switches:** VLAN-aware port profiles and PoE management for production and AV devices.
+- **EdgeRouter:** L3 routing and inter-VLAN policy for segmented networks.
 
 ---
 

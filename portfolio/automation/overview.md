@@ -18,8 +18,7 @@ Effective automation should:
 
 My automation work demonstrates proficiency in:
 
-- **Generative AI Integration:** Implementing LLMs (Vertex AI) for content summarization and generation
-- **Computer Vision and Analytics:** Real-time detection and tracking (YOLOv8, ByteTrack) for spatial data
+- **Generative AI Integration:** Implementing self-hosted local LLMs (Ollama / Llama 3.1) for content summarization and generation
 - **API Integration:** Orchestrating data between Gmail, Planning Center, and custom binary formats
 - **Python Programming:** Core language for all automation scripts
 - **Infrastructure Management:** Self-hosting and server administration via Docker and Linux
@@ -54,7 +53,6 @@ My automation work demonstrates proficiency in:
 ## Featured Projects
 
 - [View Featured Automation Tools](python-tools.md)
-- [View Computer Vision Projects](doorway-counter.md)
 - [View Church Automation Suite](church-automation.md)
 - [View Self-Hosting Infrastructure](self-hosting.md)
 
@@ -62,11 +60,10 @@ My automation work demonstrates proficiency in:
 
 ## Impact
 
-- **70%+ reduction** in manual task time
-- **Zero errors** in automated processes
-- **Scalable solutions** handling thousands of records
-- **Adopted by colleagues** for improved efficiency
+- Reduced a **4–5 hour weekly church-production workflow to under 15 minutes**
+- Eliminated copy-paste transcription errors through **template-driven generation**
+- Migrated AI summarization from a **paid cloud API to a self-hosted local model**
 
 ---
 
-[Back to Portfolio Home](../intro.md)
+[Back to Portfolio Home](../index.md)
