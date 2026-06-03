@@ -23,7 +23,7 @@ I am an experienced **Curriculum Developer** with a strong foundation in Python 
 - **Generative AI & LLM Implementation** — Integrating self-hosted local LLMs (Ollama / Llama 3.1) into production pipelines for automated content summarization, migrated off cloud APIs for data sovereignty and zero per-call cost.
 - **AV Systems Automation** — Specialized expertise in production technology, including reverse-engineering binary formats (Protocol Buffers) and building custom systems integrations.
 - **Full-Stack Tooling & Repo Management** — Designing robust, modular Python architectures and CLI tools that prioritize maintainability and developer experience.
-- **Infrastructure & Self-Hosting** — Managing private cloud infrastructure (Docker, Linux) for data sovereignty, security, and testing emerging technologies.
+- **Infrastructure & Self-Hosting** — Managing private cloud infrastructure (Proxmox, Docker, Linux) for data sovereignty, security, and testing emerging technologies.
 
 ---
 
@@ -52,9 +52,16 @@ Expertise in **technical production environments**, including live audio enginee
 
 - Developed curriculum reaching **2,600 engineering students per semester** across four first-year courses and 20+ sections
 - Created **interactive learning materials** reaching **thousands** of learners online
-- Automated critical production workflows, **cutting a 4–5 hour weekly task to under 15 minutes**
+- Automated critical **church production** workflows, **cutting a 4–5 hour weekly task to under 15 minutes**
+- Built a Python automation that turns **roughly a week of student grade-data analysis into ~15 minutes**
 - Designed and delivered **engaging technical content** across multiple platforms
 - Proficient in **modern development practices** (Git, CI/CD, Python, Jupyter)
+
+---
+
+## Certifications
+
+- **Google AI Professional Certificate** — Google, June 2026 · [Verify on Credly](https://www.credly.com/go/n9XkbWZR)
 
 ---
 

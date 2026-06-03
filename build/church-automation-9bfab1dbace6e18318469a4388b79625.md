@@ -1,6 +1,6 @@
 # Church Automation Suite
 
-The **Church Automation Suite** is a high-performance Python monorepo designed to automate the complex, repetitive workflows of church production teams. By integrating multiple APIs and reverse-engineering proprietary formats, it reduces a 4-hour weekly manual process to less than 15 minutes.
+The **Church Automation Suite** is a high-performance Python monorepo designed to automate the complex, repetitive workflows of church production teams. By integrating multiple APIs and reverse-engineering proprietary formats, it reduces a 4–5 hour weekly manual process to less than 15 minutes.
 
 ## Overview
 
