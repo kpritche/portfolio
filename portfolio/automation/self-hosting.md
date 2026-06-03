@@ -17,13 +17,12 @@ I believe in maintaining a robust, secure, and self-hosted digital environment t
 
 ### Server Administration
 - **Operating Systems:** Extensive experience with Linux distributions (primarily Debian and Ubuntu Server).
-- **Virtualization and Containerization:** Utilizing Docker and Docker Compose to manage isolated, portable service environments.
+- **Virtualization and Containerization:** Running Proxmox VE with LXC containers, plus Docker and Docker Compose, to manage isolated, portable service environments.
 - **Hardware Management:** Maintenance of physical servers, including performance monitoring and resource allocation.
 
 ### Network and Security
-- **Reverse Proxies:** Implementation of tools like Nginx or Caddy to manage SSL termination and secure external access.
-- **Network Segmentation:** Configuring firewalls and internal networks to isolate sensitive services.
-- **Remote Access:** Utilizing secure VPN solutions for encrypted, remote management of the infrastructure.
+- **Secure Remote Access:** Tailscale mesh networking for encrypted, remote management without exposing services to the public internet.
+- **Network Segmentation:** UniFi-managed VLANs and firewall rules to isolate sensitive services.
 
 ### Data Management
 - **Automated Backups:** Scheduled, encrypted backup routines to both local and off-site storage.

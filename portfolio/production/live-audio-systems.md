@@ -2,7 +2,7 @@
 
 ## Digital Mixing Platforms
 
-I have extensive experience with the **Allen & Heath ecosystem**, from small-format SQ consoles to flagship dLive systems. My focus is on creating intuitive, powerful mixing environments that empower both professional engineers and volunteers.
+I have hands-on experience with the **Allen & Heath ecosystem**, running an SQ console as my primary mixing platform and a Qu-series console for smaller setups. My focus is on creating intuitive, powerful mixing environments that empower both professional engineers and volunteers.
 
 ### Key Competencies
 
@@ -20,7 +20,7 @@ The backbone of modern production is the network. I specialize in **Dante (Digit
 
 ## Signal Processing & Mixing
 
-- **On-Console Processing:** Leveraging the built-in EQ, dynamics, and FX engines of the dLive and SQ platforms to deliver full mixes without external outboard gear.
+- **On-Console Processing:** Leveraging the built-in EQ, dynamics, and FX engines of the SQ platform to deliver full mixes without external outboard gear.
 - **Mix Workflow:** Building DCA/group structures and scene-based recalls so volunteer operators can run high-quality services with minimal training.
 
 ---

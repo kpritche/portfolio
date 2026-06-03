@@ -31,11 +31,11 @@ A modular Python monorepo that orchestrates the entire weekly workflow:
 
 In addition to large-scale suites, I maintain a library of utilities that solve critical educational administrative challenges.
 
-### Student Data Pipeline (Pandas/openpyxl)
-Automated the ingestion of enrollment data from disparate sources (LMS, Registrar, Survey tools), reducing a 4-hour manual process to a 10-second script. Includes robust validation and discrepancy logging.
+### Grade Data Analysis & Reporting
+A Python automation that analyzes and reports student grade data across first-year engineering courses, collapsing roughly a week of manual analysis and reporting into about 15 minutes — surfacing the outcomes and modules that need attention.
 
-### GitHub Course Manager (PyGithub/REST)
-A tool to audit student repository compliance across 500+ students. It automatically checks for specific commit patterns, file structures, and last-activity timestamps to flag students needing proactive outreach.
+### Meeting & Interview Summarization (Self-Hosted LLM)
+A local LLM pipeline that summarizes meetings and interviews, running self-hosted models so the source content stays on local infrastructure.
 
 ---
 
