@@ -19,13 +19,9 @@ I believe in creating **inclusive, engaging, and practical** learning experience
 
 ## Featured Projects
 
-### First-Year Engineering Materials
-Comprehensive learning materials for Purdue's FYE courses, including lectures and assessments.
-[**View FYE Materials**](fye-materials.md)
-
-### Interactive Learning Experiences
-Web-based, dynamic materials that use Jupyter and MyST to provide hands-on exploration.
-[**View Interactive Projects**](interactive-projects.md)
+### First-Year Engineering
+Course websites, Python and MATLAB coursework, and automated assessment tooling I build and maintain for Purdue's FYE program — instructional design paired with real software engineering.
+[**View First-Year Engineering Projects**](fye-materials.md)
 
 ---
 

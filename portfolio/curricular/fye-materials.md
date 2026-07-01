@@ -1,59 +1,74 @@
-# First-Year Engineering Curricular Materials
+# First-Year Engineering
 
-This page serves as a record of curricular materials developed for First-Year Engineering (FYE) courses. The following sections provide templates for documenting contributions to specific course modules, assessments, and instructional strategies.
+This page is the record of my curriculum-development work for **First-Year Engineering (FYE)** at Purdue University — a program serving roughly 2,600 students per semester across four courses and 20+ sections. Here I build and maintain the web-based learning platforms, coursework, and assessment tooling that deliver it, pairing instructional design with real software engineering: version-controlled content, automated builds, and custom autograding at the scale of thousands of students.
 
 ---
 
-## ENGR 131: Transforming Ideas to Innovation I
+## ENGR 131 — Transforming Ideas to Innovation I
 
-**Course Description:** An introduction to engineering professions and the engineering design process. Students will develop skills in project management, engineering fundamentals, oral and graphical communication, logical thinking, and modern engineering tools.
+- **Role:** Lead Developer (technical)
+- **Platform:** Jupyter Book v2 • MyST Markdown • GitHub Pages • GitHub Actions
+- **Live Site:** [purdue-fye.github.io/engr-13100-2026-fall](https://purdue-fye.github.io/engr-13100-2026-fall/intro.html)
 
-### Project: ENGR 131 Course Website (WIP)
-- **Role:** Lead Developer
-- **Website Link:** [Purdue's ENGR 131 Course Website](https://purdue-fye.github.io/engr-13100-2026-fall/intro.html)
-- **Key Contributions:**
-    - Writing content
-    - Developing automations
-    - Acting as devops for the organizational repositories that host the course website.
-- **Summary:** 
-    To more easily deliver content to over 2,000 students across the course's many sections, we needed a unified delivery method for course content with robust source and version control. I proposed migrating our course content to a website hosted by GitHub pages, building off of the framework of the ENGR 133 course. I am leading the development of this website from a technical end and sharing the content writing responsibilities with my fellow curriculum developers.
+I lead the technical development of the ENGR 131 course website — the unified, version-controlled platform for delivering course content across the program's many sections, currently in active development for the Fall 2026 offering. To replace fragmented content delivery, I proposed migrating the course's content to GitHub Pages (building on the ENGR 133 framework) and own the technical side of that build, while sharing content authorship with the curriculum team.
+
+**Key Contributions**
+
+- **Content & Authoring:** Writing and structuring course content in MyST Markdown.
+- **Automation & CI/CD:** Building the GitHub Actions pipelines that compile and deploy the site.
+- **DevOps:** Serving as DevOps for the organizational repositories that host the course website across its many sections.
+
 ---
 
-<!-- ## ENGR 132: Transforming Ideas to Innovation II
+## ENGR 133 — Transforming Ideas to Innovation (EPICS & VIP)
 
-**Course Description:** A continuation of the engineering design process with an emphasis on data analysis and mathematical modeling.
-
-### Project/Module Template: [Title]
-- **Role:** [Lead Developer / Contributor / Coordinator]
-- **Learning Objectives:**
-    1. [Objective 1]
-    2. [Objective 2]
-- **Key Contributions:**
-    - [Brief description of data-driven labs, modeling exercises, or project milestones]
-- **Technical Integration:** [Description of tools used, such as Python, MATLAB, or Excel for engineering analysis]
-- **Impact:** [Results of implementation, student feedback, or performance data]
-
---- -->
-
-## ENGR 133: Transforming Ideas to Innovation - EPICS and VIP
-
-**Course Description:** An introduction to engineering professions and the engineering design process. Students will develop skills in project management, engineering fundamentals, oral and graphical communication, logical thinking, and modern engineering tools.
-
-### Project: Course Content Development
 - **Role:** Contributor
-- **Website:** [Purdue's ENGR 133 Course Website](https://purdue-engr-13300.github.io/2025-fall/intro.html)
-- **Key Contributions:**
-    - Wrote Python and MATLAB homework assignments for teams and individuals
-    - Developed a culminating project for the Python unit on image processing techniques
-    - Created instructional Python videos for a flipped classroom environment
-- **Summary:**
-    For the fall 2022 and fall 2023 semesters I developed new videos, homework assignments, and projects for ENGR 133. Many of these homework assignments are still in use and can be viewed at the website link above.
+- **Platform:** Jupyter Book • Python • MATLAB
+- **Live Site:** [purdue-engr-13300.github.io/2025-fall](https://purdue-engr-13300.github.io/2025-fall/intro.html)
+
+For the Fall 2022 and Fall 2023 semesters I developed Python and MATLAB coursework for ENGR 133, much of which remains in active use.
+
+**Key Contributions**
+
+- Authored Python and MATLAB homework assignments for both teams and individuals.
+- Designed a culminating project for the Python unit on image-processing techniques.
+- Produced instructional Python videos for a flipped-classroom environment.
+
+---
+
+## generic-grader — Automated Assessment
+
+- **Role:** Fork Maintainer / Contributor
+- **Platform:** Python • Gradescope Autograder • unittest
+- **Original Author:** John Cole ([jhcole](https://github.com/jhcole))
+- **My Fork:** [github.com/pritchettk/generic-grader](https://github.com/pritchettk/generic-grader) (my professional Purdue GitHub account)
+
+`generic-grader` is a Python autograding framework that integrates with Gradescope to automatically evaluate student submissions. I maintain a fork that extends the original with additional grading capabilities used in Purdue's first-year engineering courses.
+
+**Key Contributions**
+
+- Added grading support for **Excel spreadsheet** submissions.
+- Added grading support for **MATLAB code** submissions.
+- Wired the grader into first-year engineering course pipelines for automated, consistent feedback at scale.
+
+---
+
+## Development Workflow
+
+All of these materials follow a consistent engineering workflow:
+
+1. **Content Development:** Author in MyST Markdown or Jupyter Notebooks.
+2. **Version Control:** Track changes with Git across organizational repositories.
+3. **Automated Testing:** Validate code examples and autograder behavior.
+4. **Continuous Deployment:** GitHub Actions build and deploy automatically.
+5. **Iteration:** Improve based on instructor and student feedback.
 
 ---
 
 ## Technical Standards for Curriculum Development
 
 All materials developed for these courses adhere to the following standards:
+
 - **Accessibility:** Compliance with WCAG standards for all digital documents.
 - **Alignment:** Strict alignment between learning objectives, instructional activities, and assessments.
 - **Inclusivity:** Use of diverse examples and human-centered design principles.
@@ -61,4 +76,4 @@ All materials developed for these courses adhere to the following standards:
 
 ---
 
-[Back to Curricular Overview](overview.md) | [View Interactive Materials](interactive-projects.md)
+[Back to Curricular Overview](overview.md) | [View Automation Tools](../automation/overview.md)

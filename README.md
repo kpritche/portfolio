@@ -1,6 +1,6 @@
 # Kory Pritchett's Professional Portfolio
 
-A professional portfolio website showcasing curriculum development, interactive course materials, and automation projects, built with Jupyter Book v2 and deployed to GitHub Pages.
+A professional portfolio website showcasing curriculum development, automation projects, and live production & systems engineering, built with Jupyter Book v2 and deployed to GitHub Pages.
 
 ## Live Site
 
@@ -10,9 +10,9 @@ Visit the portfolio at: `https://kpritche.github.io/portfolio/`
 
 This portfolio demonstrates my expertise in:
 
-- **Curricular Materials** — Educational content for First-Year Engineering at Purdue University
-- **Interactive Course Materials** — Web-based learning experiences with Jupyter Book and GitHub Pages
-- **Automation Tools** — Python-based solutions streamlining workflows and solving technical challenges
+- **Curricular Materials** — Educational content and interactive learning platforms for First-Year Engineering at Purdue University
+- **Automation Projects** — Python-based solutions streamlining workflows and solving technical challenges
+- **Live Production & Systems Engineering** — Live audio, network infrastructure, and production automation
 
 ## Built With
 
@@ -126,16 +126,21 @@ portfolio/
 │       └── deploy.yml          # GitHub Actions workflow for deployment
 ├── portfolio/
 │   ├── _build/                 # Built site (generated, not tracked in git)
-│   ├── automation/             # Automation tools section
+│   ├── docs/                   # Resume PDF and headshot
+│   ├── automation/             # Automation projects section
 │   │   ├── overview.md
-│   │   └── python-tools.md
+│   │   ├── python-tools.md
+│   │   ├── church-automation.md
+│   │   └── self-hosting.md
 │   ├── curricular/             # Curricular materials section
 │   │   ├── overview.md
-│   │   └── fye-materials.md
-│   ├── interactive/            # Interactive materials section
+│   │   └── fye-materials.md    # First-Year Engineering (consolidated)
+│   ├── production/             # Live production & systems engineering section
 │   │   ├── overview.md
-│   │   └── github-pages-projects.md
-│   ├── intro.md                # Landing page
+│   │   ├── live-audio-systems.md
+│   │   ├── network-infrastructure.md
+│   │   └── automation-control.md
+│   ├── index.md                # Landing page
 │   └── myst.yml                # Jupyter Book configuration
 ├── pyproject.toml              # Project metadata and dependencies
 ├── uv.lock                     # uv lock file (dependency versions)

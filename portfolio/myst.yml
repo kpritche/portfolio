@@ -18,7 +18,6 @@ project:
       title: Curricular Materials
       children:
         - file: curricular/fye-materials.md
-        - file: curricular/interactive-projects.md
     - file: automation/overview.md
       title: Automation Projects
       children:
