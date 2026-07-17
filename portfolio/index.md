@@ -89,4 +89,4 @@ I'm passionate about creating transformative educational experiences through tec
 
 - **LinkedIn:** [linkedin.com/in/kory-pritchett-185772142](https://www.linkedin.com/in/kory-pritchett-185772142)
 - **GitHub:** [github.com/kpritche](https://github.com/kpritche)
-- **Resume:** [View/Download PDF](/docs/kp_resume.pdf)
+- **Resume:** [View/Download PDF](docs/kp_resume.pdf)
