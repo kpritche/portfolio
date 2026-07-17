@@ -43,7 +43,7 @@ site:
   
   nav:
     - title: Home
-      url: /index
+      url: /portfolio/index
     - title: GitHub
       url: https://github.com/kpritche
     - title: LinkedIn
@@ -51,4 +51,4 @@ site:
 
   actions:
     - title: Resume Download
-      url: /docs/kp_resume.pdf
+      url: docs/kp_resume.pdf
