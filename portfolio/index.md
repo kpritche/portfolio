@@ -9,21 +9,19 @@
 ```
 :::
 
-I am an experienced **Curriculum Developer** with a strong foundation in Python programming, educational technology, server and network administration, and Audio/Visual production. I specialize in creating engaging, interactive, and evidence-based learning experiences that empower students to master complex concepts. I enjoy solving challenging problems that require technical solutions and optimizing and automating wherever possible.
+I **build production integrations** that turn messy, real-world workflows into reliable automated systems — self-hosted LLM pipelines, cross-platform API orchestration, AV and systems integration, and reverse-engineered binary protocols. And I can explain exactly how any of it works to anyone in the room: I've taught hard technical concepts to **2,600+ first-year engineering students a semester**. I work best sitting between a hard technical problem and the people who need it solved.
 
 **[Download My Resume (PDF)](docs/kp_resume.pdf)**
 
 ### Core Competencies
 
-- **Curriculum Design & Development** — Designing and implementing comprehensive courses for first-year engineering students
-- **Python Programming** — Developing tools, scripts, and interactive applications
-- **Interactive Learning Materials** — Building engaging content with Jupyter, MyST, and GitHub Pages
-- **Educational Technology** — Leveraging modern tools to enhance student learning outcomes
 - **Workflow Automation & API Integration** — Orchestrating complex data flows between disparate platforms like Gmail, Planning Center, and ProPresenter to eliminate manual entry.
 - **Generative AI & LLM Implementation** — Integrating self-hosted local LLMs (Ollama / Llama 3.1) into production pipelines for automated content summarization, migrated off cloud APIs for data sovereignty and zero per-call cost.
 - **AV Systems Automation** — Specialized expertise in production technology, including reverse-engineering binary formats (Protocol Buffers) and building custom systems integrations.
 - **Full-Stack Tooling & Repo Management** — Designing robust, modular Python architectures and CLI tools that prioritize maintainability and developer experience.
 - **Infrastructure & Self-Hosting** — Managing private cloud infrastructure (Proxmox, Docker, Linux) for data sovereignty, security, and testing emerging technologies.
+- **Technical Communication & Teaching** — Translating hard technical concepts for non-technical audiences at scale, from 2,600 students a semester to production stakeholders.
+- **Curriculum Design & Development** — Designing and implementing comprehensive courses for first-year engineering students, with interactive content built on Jupyter, MyST, and GitHub Pages.
 
 ---
 
@@ -85,7 +83,7 @@ Expertise in **technical production environments**, including live audio enginee
 
 ## Let's Connect
 
-I'm passionate about creating transformative educational experiences through technology and best practices in curriculum design. Let's work together!
+I like turning hard technical problems into working systems — and helping the people around them understand and use what I build. If you're working on something that has to talk to the real world reliably, or a team that needs someone who can both build the integration and explain it, let's work together.
 
 - **LinkedIn:** [linkedin.com/in/kory-pritchett-185772142](https://www.linkedin.com/in/kory-pritchett-185772142)
 - **GitHub:** [github.com/kpritche](https://github.com/kpritche)
