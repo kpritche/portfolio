@@ -4,8 +4,8 @@ project:
   edit_url: null
   id: 9a7d3098-be75-4c96-aee7-0c09e0bc9800
   title: Kory Pritchett's Professional Portfolio
-  description: A collection of my professional and personal projects in curriculum development, automation projects, and live production & systems engineering.
-  keywords: [curriculum development, python, jupyter, education technology, automation, live production, dlive, ubiquiti, systems integration]
+  description: Solutions engineer and educator — production integrations, self-hosted LLM pipelines, cross-platform API orchestration, and AV/systems automation, plus first-year engineering curriculum at scale.
+  keywords: [solutions engineer, integrations, LLM pipelines, API integration, automation, systems integration, python, self-hosting, live production, curriculum development, education technology, jupyter, ubiquiti, dlive]
   authors:
     - name: Kory Pritchett
       url: https://www.linkedin.com/in/kory-pritchett-185772142
