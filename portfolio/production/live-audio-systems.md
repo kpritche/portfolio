@@ -1,4 +1,4 @@
-# Live Audio Systems & Engineering
+# Live Audio Mixing & Operations
 
 ## Digital Mixing Platforms
 
@@ -6,7 +6,7 @@ I have hands-on experience with the **Allen & Heath ecosystem**, running an SQ c
 
 ### Key Competencies
 
-- **Show File Architecture:** Building modular show files with comprehensive DCA and SoftKey mapping for rapid operation.
+- **Show File Setup:** Building modular show files with comprehensive DCA and SoftKey mapping for rapid operation.
 - **Gain Tracking & Sharing:** Managing preamp sharing across FOH, Broadcast, and Monitor positions in multi-console environments.
 - **Scene Automation:** Implementing deep scene recalls and crossfades for complex theatrical or high-production services.
 
@@ -20,7 +20,7 @@ The backbone of modern production is the network. I specialize in **Dante (Digit
 
 ## Signal Processing & Mixing
 
-- **On-Console Processing:** Leveraging the built-in EQ, dynamics, and FX engines of the SQ platform to deliver full mixes without external outboard gear.
+- **On-Console Processing:** Using the built-in EQ, dynamics, and FX engines of the SQ platform to deliver full mixes without external outboard gear.
 - **Mix Workflow:** Building DCA/group structures and scene-based recalls so volunteer operators can run high-quality services with minimal training.
 
 ---

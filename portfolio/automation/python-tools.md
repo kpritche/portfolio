@@ -17,7 +17,7 @@ Nonprofit production workflows often involve manual transcription of announcemen
 ### The Solution
 A modular Python monorepo that orchestrates the entire weekly workflow:
 - **Announcements Engine:** Fetches emails via Gmail API, uses a **self-hosted local LLM (Ollama / Llama 3.1)** to summarize content into slide-ready text, and generates native ProPresenter `.probundle` files with automated QR codes.
-- **Service Slide Generator:** Syncs with Planning Center Online to fetch liturgy, lyrics, and scripture, then builds full ProPresenter `.pro` files by serializing data using **Protocol Buffers**.
+- **Service Slide Generator:** Syncs with Planning Center Online to fetch run-of-show, song lyrics, and readings, then builds full ProPresenter `.pro` files by serializing data using **Protocol Buffers**.
 - **Bulletin Generator:** Produces print-ready PDFs from the same service plan data using ReportLab.
 
 ### Key Technical Achievements

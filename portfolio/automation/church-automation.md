@@ -6,7 +6,7 @@ The **Nonprofit Automation Suite** is a high-performance Python monorepo designe
 
 The weekly production workflow spans several disparate platforms:
 - **Gmail** for announcement intake.
-- **Planning Center Online (PCO)** for service orders and liturgy.
+- **Planning Center Online (PCO)** for service orders and run-of-show.
 - **ProPresenter 7** for live visual presentation.
 
 This suite acts as the "connective tissue," using AI and automated serialization to move data seamlessly between these systems.
@@ -23,7 +23,7 @@ The project is structured as a **modular monorepo** using `setuptools` and `pypr
 
 ### Core Modules
 - **`announcements`**: Fetches emails, parses HTML, summarizes content via a **self-hosted local LLM (Ollama / Llama 3.1)**, and generates `.probundle` files.
-- **`slides`**: Connects to PCO, parses lyrics/scripture (PDF/HTML), and generates native `.pro` files using **Protocol Buffers**.
+- **`slides`**: Connects to PCO, parses song lyrics and readings (PDF/HTML), and generates native `.pro` files using **Protocol Buffers**.
 - **`bulletins`**: Extracts service data to generate print-ready PDFs via **ReportLab**.
 - **`shared`**: Centralized path management and API credential handling.
 
