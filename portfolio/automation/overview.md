@@ -53,14 +53,14 @@ My automation work demonstrates proficiency in:
 ## Featured Projects
 
 - [View Featured Automation Tools](python-tools.md)
-- [View Nonprofit Automation Suite](church-automation.md)
+- [View Church Automation Suite](church-automation.md)
 - [View Self-Hosting Infrastructure](self-hosting.md)
 
 ---
 
 ## Impact
 
-- Reduced a **4–5 hour weekly nonprofit-production workflow to under 15 minutes**
+- Reduced a **4–5 hour weekly church-production workflow to under 15 minutes**
 - Eliminated copy-paste transcription errors through **template-driven generation**
 - Migrated AI summarization from a **paid cloud API to a self-hosted local model**
 

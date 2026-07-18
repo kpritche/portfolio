@@ -4,7 +4,7 @@ This page showcases complex automation systems I've developed, demonstrating adv
 
 ---
 
-## Nonprofit Automation Suite
+## Church Automation Suite
 
 **Category:** Workflow Automation and API Orchestration  
 **Stack:** Python • Ollama / Llama 3.1 (self-hosted LLM) • Protocol Buffers • PCO API • Gmail API
@@ -12,12 +12,12 @@ This page showcases complex automation systems I've developed, demonstrating adv
 **[View Project Details](church-automation.md)**
 
 ### The Challenge
-Nonprofit production workflows often involve manual transcription of announcements from emails to presentation software (ProPresenter) and service planning platforms (Planning Center). This is time-consuming, repetitive, and prone to copy-paste errors.
+Church production workflows often involve manual transcription of announcements from emails to presentation software (ProPresenter) and service planning platforms (Planning Center). This is time-consuming, repetitive, and prone to copy-paste errors.
 
 ### The Solution
 A modular Python monorepo that orchestrates the entire weekly workflow:
 - **Announcements Engine:** Fetches emails via Gmail API, uses a **self-hosted local LLM (Ollama / Llama 3.1)** to summarize content into slide-ready text, and generates native ProPresenter `.probundle` files with automated QR codes.
-- **Service Slide Generator:** Syncs with Planning Center Online to fetch run-of-show, song lyrics, and readings, then builds full ProPresenter `.pro` files by serializing data using **Protocol Buffers**.
+- **Service Slide Generator:** Syncs with Planning Center Online to fetch liturgy, lyrics, and scripture, then builds full ProPresenter `.pro` files by serializing data using **Protocol Buffers**.
 - **Bulletin Generator:** Produces print-ready PDFs from the same service plan data using ReportLab.
 
 ### Key Technical Achievements

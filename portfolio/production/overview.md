@@ -9,7 +9,7 @@ I work across **live production environments** in two modes. The first is hands-
 - **Live Audio Operation** — Hands-on mixing on Allen & Heath (SQ, Qu) consoles and Dante digital audio networks.
 - **Network Infrastructure** — Designing and managing high-reliability Ubiquiti UniFi networks with VLAN segmentation for production traffic.
 - **Production Automation & Control** — Streamlining complex workflows using Bitfocus Companion, ProPresenter, and custom MIDI/OSC/TCP control systems.
-- **Systems Integration** — Converging the network, control, and automation layers into cohesive, user-friendly operational environments (the built infrastructure behind a show, distinct from operating the console).
+- **Systems Integration** — Converging disparate technical systems into cohesive, user-friendly operational environments.
 
 ---
 
