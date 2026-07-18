@@ -4,7 +4,7 @@ This page showcases complex automation systems I've developed, demonstrating adv
 
 ---
 
-## Church Automation Suite
+## Nonprofit Automation Suite
 
 **Category:** Workflow Automation and API Orchestration  
 **Stack:** Python • Ollama / Llama 3.1 (self-hosted LLM) • Protocol Buffers • PCO API • Gmail API
@@ -12,7 +12,7 @@ This page showcases complex automation systems I've developed, demonstrating adv
 **[View Project Details](church-automation.md)**
 
 ### The Challenge
-Church production workflows often involve manual transcription of announcements from emails to presentation software (ProPresenter) and service planning platforms (Planning Center). This is time-consuming, repetitive, and prone to copy-paste errors.
+Nonprofit production workflows often involve manual transcription of announcements from emails to presentation software (ProPresenter) and service planning platforms (Planning Center). This is time-consuming, repetitive, and prone to copy-paste errors.
 
 ### The Solution
 A modular Python monorepo that orchestrates the entire weekly workflow:

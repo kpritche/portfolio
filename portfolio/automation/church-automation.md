@@ -1,10 +1,10 @@
-# Church Automation Suite
+# Nonprofit Automation Suite
 
-The **Church Automation Suite** is a high-performance Python monorepo designed to automate the complex, repetitive workflows of church production teams. By integrating multiple APIs and reverse-engineering proprietary formats, it reduces a 4–5 hour weekly manual process to less than 15 minutes.
+The **Nonprofit Automation Suite** is a high-performance Python monorepo designed to automate the complex, repetitive workflows of a volunteer-run production team. By integrating multiple APIs and reverse-engineering proprietary formats, it reduces a 4–5 hour weekly manual process to less than 15 minutes.
 
 ## Overview
 
-Modern church services rely on several disparate platforms:
+The weekly production workflow spans several disparate platforms:
 - **Gmail** for announcement intake.
 - **Planning Center Online (PCO)** for service orders and liturgy.
 - **ProPresenter 7** for live visual presentation.
@@ -37,7 +37,7 @@ ProPresenter 7 uses a complex binary format for its `.pro` files.
 
 ### 2. Intelligent Content Summarization
 Announcement emails are often wordy and unsuitable for slides.
-- **Solution:** Integrated a **self-hosted local LLM (Ollama running Llama 3.1 8B)** to perform context-aware summarization. The system extracts key dates, locations, and calls-to-action, then formats them into concise, slide-ready bullet points. Originally built on a cloud API (Google Vertex AI), the summarizer was later migrated to a local model on homelab infrastructure — eliminating per-call cost and keeping congregation data on-premises.
+- **Solution:** Integrated a **self-hosted local LLM (Ollama running Llama 3.1 8B)** to perform context-aware summarization. The system extracts key dates, locations, and calls-to-action, then formats them into concise, slide-ready bullet points. Originally built on a cloud API (Google Vertex AI), the summarizer was later migrated to a local model on homelab infrastructure — eliminating per-call cost and keeping the organization's data on-premises.
 
 ### 3. API Orchestration
 Managing state across Gmail, PCO, and local filesystems.

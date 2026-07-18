@@ -70,7 +70,7 @@ Educational content developed for **First-Year Engineering (FYE)** at Purdue Uni
 **[View Automation Projects](automation/overview.md)**
 
 ### Live Production & Systems Engineering
-Expertise in **technical production environments**, including live audio engineering (Allen & Heath), network infrastructure (Ubiquiti), and production automation (Bitfocus Companion).
+Hands-on **live-production operations** — running live sound on Allen & Heath consoles — plus the network infrastructure (Ubiquiti) and Bitfocus Companion automation I build for those environments.
 
 **[View Production Projects](production/overview.md)**
 

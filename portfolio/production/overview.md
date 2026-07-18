@@ -2,11 +2,11 @@
 
 ## Overview
 
-I specialize in the design, implementation, and management of **complex live production environments**. My expertise bridges the gap between traditional Audio/Visual systems and modern IT infrastructure, ensuring robust, reliable, and high-performance technical systems for live events and permanent installations.
+I work across **live production environments** in two modes. The first is hands-on operations — running live sound on Allen & Heath consoles for services and events. The second is the systems behind those rooms: the network infrastructure and control automation I design, build, and maintain. Mixing a show is a production craft; the network and automation underneath it are engineering — and I keep the two distinct.
 
 ## Core Capabilities
 
-- **Live Audio Engineering** — Expertise with Allen & Heath (SQ, Qu) platforms and Dante digital audio networking.
+- **Live Audio Operation** — Hands-on mixing on Allen & Heath (SQ, Qu) consoles and Dante digital audio networks.
 - **Network Infrastructure** — Designing and managing high-reliability Ubiquiti UniFi networks with VLAN segmentation for production traffic.
 - **Production Automation & Control** — Streamlining complex workflows using Bitfocus Companion, ProPresenter, and custom MIDI/OSC/TCP control systems.
 - **Systems Integration** — Converging disparate technical systems into cohesive, user-friendly operational environments.

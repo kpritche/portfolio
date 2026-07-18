@@ -43,7 +43,7 @@ site:
   
   nav:
     - title: Home
-      url: /portfolio/index
+      url: /index
     - title: GitHub
       url: https://github.com/kpritche
     - title: LinkedIn
