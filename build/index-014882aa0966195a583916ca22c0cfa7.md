@@ -23,9 +23,9 @@ Extended and hardened the **Gradescope autograder** that grades ~2,600 first-yea
 
 *Python · Docker · Gradescope autograder harness · GitHub Codespaces · SSH deploy keys · pandas*
 
-### Automation suite for a nonprofit's weekly operations
+### Automation suite for a church's weekly operations
 
-A Python monorepo automating a volunteer-run organization's weekly content pipeline: it pulls service data from a scheduling platform's REST API, summarizes a newsletter with a **self-hosted LLM** (migrated off a paid cloud model to a local Ollama server — identical prompts, zero per-call cost, data stays on-prem), and generates print-ready bulletins and presentation slides. The slide generator emits **ProPresenter**'s native format by reverse-engineering its undocumented **Protocol Buffer** schema (45+ generated message types).
+A Python monorepo automating a church's weekly content pipeline: it pulls service data from **Planning Center**'s REST API, summarizes a newsletter with a **self-hosted LLM** (migrated off a paid cloud model to a local Ollama server — identical prompts, zero per-call cost, data stays on-prem), and generates print-ready bulletins and presentation slides. The slide generator emits **ProPresenter**'s native format by reverse-engineering its undocumented **Protocol Buffer** schema (45+ generated message types).
 
 *Python · uv workspaces · REST APIs · Protocol Buffers · self-hosted Ollama · ReportLab · Docker*
 
@@ -70,7 +70,7 @@ Educational content developed for **First-Year Engineering (FYE)** at Purdue Uni
 **[View Automation Projects](automation/overview.md)**
 
 ### Live Production & Systems Engineering
-Expertise in **technical production environments**, including live audio engineering (Allen & Heath), network infrastructure (Ubiquiti), and production automation (Bitfocus Companion).
+Hands-on **live-production operations** — running live sound on Allen & Heath consoles — plus the network infrastructure (Ubiquiti) and Bitfocus Companion automation I build for those environments.
 
 **[View Production Projects](production/overview.md)**
 
@@ -80,7 +80,7 @@ Expertise in **technical production environments**, including live audio enginee
 
 - Developed curriculum reaching **2,600 engineering students per semester** across four first-year courses and 20+ sections
 - Created **interactive learning materials** reaching **thousands** of learners online
-- Automated critical **nonprofit production** workflows, **cutting a 4–5 hour weekly task to under 15 minutes**
+- Automated critical **church production** workflows, **cutting a 4–5 hour weekly task to under 15 minutes**
 - Built a Python automation that turns **roughly a week of student grade-data analysis into ~15 minutes**
 - Designed and delivered **engaging technical content** across multiple platforms
 - Proficient in **modern development practices** (Git, CI/CD, Python, Jupyter)
