@@ -4,7 +4,7 @@ project:
   edit_url: null
   id: 9a7d3098-be75-4c96-aee7-0c09e0bc9800
   title: Kory Pritchett's Professional Portfolio
-  description: Solutions engineer and educator — production integrations, self-hosted LLM pipelines, cross-platform API orchestration, and AV/systems automation, plus first-year engineering curriculum at scale.
+  description: Solutions engineer and educator. Production integrations, self-hosted LLM pipelines, cross-platform API orchestration, and AV/systems automation, plus first-year engineering curriculum at scale.
   keywords: [solutions engineer, integrations, LLM pipelines, API integration, automation, systems integration, python, self-hosting, live production, curriculum development, education technology, jupyter, ubiquiti, dlive]
   authors:
     - name: Kory Pritchett

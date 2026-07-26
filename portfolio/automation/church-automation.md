@@ -1,6 +1,6 @@
 # Church Automation Suite
 
-The **Church Automation Suite** is a high-performance Python monorepo designed to automate the complex, repetitive workflows of church production teams. By integrating multiple APIs and reverse-engineering proprietary formats, it reduces a 4–5 hour weekly manual process to less than 15 minutes.
+The **Church Automation Suite** is a Python monorepo that automates the repetitive weekly workflows of a church production team. It integrates several APIs and reverse-engineers a proprietary file format to reduce a 4 to 5 hour weekly manual process to less than 15 minutes.
 
 ## Overview
 
@@ -9,7 +9,7 @@ Modern church services rely on several disparate platforms:
 - **Planning Center Online (PCO)** for service orders and liturgy.
 - **ProPresenter 7** for live visual presentation.
 
-This suite acts as the "connective tissue," using AI and automated serialization to move data seamlessly between these systems.
+This suite is the connective tissue between them, using AI and automated serialization to move data from one system to the next without anyone retyping it.
 
 ---
 
@@ -19,7 +19,7 @@ This suite acts as the "connective tissue," using AI and automated serialization
 
 ## Technical Architecture
 
-The project is structured as a **modular monorepo** using `setuptools` and `pyproject.toml` for independent package management.
+The project is a **modular monorepo** using `setuptools` and `pyproject.toml` so each package can be managed independently.
 
 ### Core Modules
 - **`announcements`**: Fetches emails, parses HTML, summarizes content via a **self-hosted local LLM (Ollama / Llama 3.1)**, and generates `.probundle` files.
@@ -37,11 +37,11 @@ ProPresenter 7 uses a complex binary format for its `.pro` files.
 
 ### 2. Intelligent Content Summarization
 Announcement emails are often wordy and unsuitable for slides.
-- **Solution:** Integrated a **self-hosted local LLM (Ollama running Llama 3.1 8B)** to perform context-aware summarization. The system extracts key dates, locations, and calls-to-action, then formats them into concise, slide-ready bullet points. Originally built on a cloud API (Google Vertex AI), the summarizer was later migrated to a local model on homelab infrastructure — eliminating per-call cost and keeping congregation data on-premises.
+- **Solution:** Integrated a **self-hosted local LLM (Ollama running Llama 3.1 8B)** to perform context-aware summarization. The system extracts key dates, locations, and calls-to-action, then formats them into concise, slide-ready bullet points. The summarizer originally ran on a cloud API (Google Vertex AI). Moving it to a local model on homelab infrastructure eliminated per-call cost and kept congregation data on-premises.
 
 ### 3. API Orchestration
 Managing state across Gmail, PCO, and local filesystems.
-- **Solution:** Built a robust "Unified Runner" (`run_all.py`) that handles OAuth2 flows, caches API responses to stay within rate limits, and uses a centralized path utility to manage output across different workstations.
+- **Solution:** Built a "Unified Runner" (`run_all.py`) that handles OAuth2 flows, caches API responses to stay within rate limits, and uses a centralized path utility to manage output across different workstations.
 
 ---
 
@@ -49,7 +49,7 @@ Managing state across Gmail, PCO, and local filesystems.
 
 | Metric | Before Automation | After Automation |
 | :--- | :--- | :--- |
-| **Weekly Prep Time** | 4 - 5 Hours | < 15 Minutes |
+| **Weekly Prep Time** | 4 to 5 hours | Under 15 minutes |
 | **Error Rate** | Moderate (Copy-paste errors) | Near Zero |
 | **Visual Consistency** | Variable | 100% (Template-driven) |
 | **QR Code Creation** | Manual (Browser-based) | Fully Automated |

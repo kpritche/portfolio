@@ -2,21 +2,20 @@
 
 ## Overview
 
-I develop **Python-based automation solutions** that streamline workflows, eliminate repetitive tasks, and solve complex technical challenges. My tools demonstrate strong software engineering practices, clean code, and practical problem-solving skills.
+I build **Python automation** for workflows that are repetitive, error-prone, or too slow to do by hand. Most of it started as a problem I had myself, which is usually the fastest way to find out whether a tool actually works.
 
-## Philosophy of Automation
+## How I Approach It
 
-Effective automation should:
+Automation earns its place when it does something a person shouldn't have to. The tests I apply:
 
-- **Save Time:** Reduce manual work and free up cognitive resources
-- **Increase Reliability:** Eliminate human error in repetitive tasks
-- **Scale Efficiently:** Handle growing workloads without proportional effort
-- **Be Maintainable:** Well-documented, testable, and easy to modify
-- **Provide Value:** Solve real problems with measurable impact
+- **Does it remove the error, not just the effort?** Copy-paste mistakes disappear when nobody copies or pastes.
+- **Does it survive the person who built it?** Documented, testable, and readable by whoever inherits it.
+- **Does it hold up as the work grows?** The weekly job should not get harder as the pile gets bigger.
+- **Can I point at what it saved?** Hours, errors, or both, measured against how it worked before.
 
 ## Technical Expertise
 
-My automation work demonstrates proficiency in:
+The work above draws on:
 
 - **Generative AI Integration:** Implementing self-hosted local LLMs (Ollama / Llama 3.1) for content summarization and generation
 - **API Integration:** Orchestrating data between Gmail, Planning Center, and custom binary formats
@@ -60,7 +59,7 @@ My automation work demonstrates proficiency in:
 
 ## Impact
 
-- Reduced a **4–5 hour weekly church-production workflow to under 15 minutes**
+- Reduced a **4 to 5 hour weekly church-production workflow to under 15 minutes**
 - Eliminated copy-paste transcription errors through **template-driven generation**
 - Migrated AI summarization from a **paid cloud API to a self-hosted local model**
 

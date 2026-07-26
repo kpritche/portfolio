@@ -2,11 +2,11 @@
 
 ## Digital Mixing Platforms
 
-I have hands-on experience with the **Allen & Heath ecosystem**, running an SQ console as my primary mixing platform and a Qu-series console for smaller setups. My focus is on creating intuitive, powerful mixing environments that empower both professional engineers and volunteers.
+I have hands-on experience with the **Allen & Heath ecosystem**, running an SQ console as my primary mixing platform and a Qu-series console for smaller setups. I build mixing environments that work for a professional engineer and a first-time volunteer on the same console.
 
 ### Key Competencies
 
-- **Show File Setup:** Building modular show files with comprehensive DCA and SoftKey mapping for rapid operation.
+- **Show File Setup:** Building modular show files with full DCA and SoftKey mapping for rapid operation.
 - **Gain Tracking & Sharing:** Managing preamp sharing across FOH, Broadcast, and Monitor positions in multi-console environments.
 - **Scene Automation:** Implementing deep scene recalls and crossfades for complex theatrical or high-production services.
 
