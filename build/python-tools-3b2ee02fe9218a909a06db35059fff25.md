@@ -1,6 +1,6 @@
 # Featured Automation Projects
 
-This page showcases complex automation systems I've developed, demonstrating advanced Python engineering, AI integration, and multi-platform data orchestration.
+The automation systems below are the ones with the most engineering behind them: Python architecture, AI integration, and moving data across platforms that were never meant to talk to each other.
 
 ---
 
@@ -32,7 +32,7 @@ A modular Python monorepo that orchestrates the entire weekly workflow:
 In addition to large-scale suites, I maintain a library of utilities that solve critical educational administrative challenges.
 
 ### Grade Data Analysis & Reporting
-A Python automation that analyzes and reports student grade data across first-year engineering courses, collapsing roughly a week of manual analysis and reporting into about 15 minutes — surfacing the outcomes and modules that need attention.
+A Python automation that analyzes and reports student grade data across first-year engineering courses, collapsing roughly a week of manual analysis and reporting into about 15 minutes. It surfaces the outcomes and modules that need attention.
 
 ### Meeting & Interview Summarization (Self-Hosted LLM)
 A local LLM pipeline that summarizes meetings and interviews, running self-hosted models so the source content stays on local infrastructure.
@@ -41,7 +41,7 @@ A local LLM pipeline that summarizes meetings and interviews, running self-hoste
 
 ## Technical Standards
 
-All projects listed here adhere to professional engineering standards:
+Every project here holds to the same standards:
 - **Type Safety:** Extensive use of Python type hinting.
 - **Clean Code:** Consistent styling (Black/Ruff) and modular design.
 - **Documentation:** Self-documenting code with clear READMEs for deployment.

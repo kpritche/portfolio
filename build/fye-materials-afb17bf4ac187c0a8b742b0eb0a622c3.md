@@ -1,16 +1,16 @@
 # First-Year Engineering
 
-This page is the record of my curriculum-development work for **First-Year Engineering (FYE)** at Purdue University — a program serving roughly 2,600 students per semester across four courses and 20+ sections. Here I build and maintain the web-based learning platforms, coursework, and assessment tooling that deliver it, pairing instructional design with real software engineering: version-controlled content, automated builds, and custom autograding at the scale of thousands of students.
+This page is the record of my curriculum-development work for **First-Year Engineering (FYE)** at Purdue University, a program serving roughly 2,600 students per semester across four courses and 20+ sections. I build and maintain the web-based learning platforms, coursework, and assessment tooling that deliver it, pairing instructional design with real software engineering: version-controlled content, automated builds, and custom autograding at the scale of thousands of students.
 
 ---
 
-## ENGR 131 — Transforming Ideas to Innovation I
+## ENGR 131: Transforming Ideas to Innovation I
 
 - **Role:** Lead Developer (technical)
 - **Platform:** Jupyter Book v2 • MyST Markdown • GitHub Pages • GitHub Actions
 - **Live Site:** [purdue-fye.github.io/engr-13100-2026-fall](https://purdue-fye.github.io/engr-13100-2026-fall/intro.html)
 
-I lead the technical development of the ENGR 131 course website — the unified, version-controlled platform for delivering course content across the program's many sections, currently in active development for the Fall 2026 offering. To replace fragmented content delivery, I proposed migrating the course's content to GitHub Pages (building on the ENGR 133 framework) and own the technical side of that build, while sharing content authorship with the curriculum team.
+I lead the technical development of the ENGR 131 course website, the unified version-controlled platform for delivering course content across the program's many sections, currently in active development for the Fall 2026 offering. Content delivery used to be fragmented across sections. I proposed migrating it to GitHub Pages (building on the ENGR 133 framework) and own the technical side of that build, while sharing content authorship with the curriculum team.
 
 **Key Contributions**
 
@@ -20,7 +20,7 @@ I lead the technical development of the ENGR 131 course website — the unified,
 
 ---
 
-## ENGR 133 — Transforming Ideas to Innovation (EPICS & VIP)
+## ENGR 133: Transforming Ideas to Innovation (EPICS & VIP)
 
 - **Role:** Contributor
 - **Platform:** Jupyter Book • Python • MATLAB
@@ -36,7 +36,7 @@ For the Fall 2022 and Fall 2023 semesters I developed Python and MATLAB coursewo
 
 ---
 
-## generic-grader — Automated Assessment
+## generic-grader: Automated Assessment
 
 - **Role:** Fork Maintainer / Contributor
 - **Platform:** Python • Gradescope Autograder • unittest
@@ -67,7 +67,7 @@ All of these materials follow a consistent engineering workflow:
 
 ## Technical Standards for Curriculum Development
 
-All materials developed for these courses adhere to the following standards:
+Every course material here is held to the same standards:
 
 - **Accessibility:** Compliance with WCAG standards for all digital documents.
 - **Alignment:** Strict alignment between learning objectives, instructional activities, and assessments.

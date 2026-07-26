@@ -2,13 +2,13 @@
 
 ## Bitfocus Companion & Stream Deck
 
-I leverage **Bitfocus Companion** to bridge the gap between disparate production hardware and software. This allows for complex "macro" style control over an entire production suite from a single button press.
+I use **Bitfocus Companion** to connect production hardware and software that ship with no way to talk to each other. The result is macro-style control over an entire production suite from a single button press.
 
 ### Integration Highlights
 
 - **Multi-Device Control:** Synchronizing a single button press to fire a ProPresenter slide, recall an Allen & Heath scene, and trigger a lighting cue.
 - **Custom Feedback:** Using Companion's feedback system to display real-time statuses (like Mute states, Battery levels, or Remaining Video Time) directly on Stream Deck buttons.
-- **Streamlined Workflows:** Reducing the cognitive load on operators by abstracting complex technical sequences into simple, labeled buttons.
+- **Streamlined Workflows:** Turning long technical sequences into single labeled buttons, so an operator tracks the service instead of the equipment.
 
 ## ProPresenter Ecosystem
 

@@ -2,14 +2,14 @@
 
 ## Overview
 
-I work across **live production environments** in two modes. The first is hands-on operations — running live sound on Allen & Heath consoles for services and events. The second is the systems behind those rooms: the network infrastructure and control automation I design, build, and maintain. Mixing a show is a production craft; the network and automation underneath it are engineering — and I keep the two distinct.
+I work across **live production environments** in two modes. The first is hands-on operations: running live sound on Allen & Heath consoles for services and events. The second is the systems behind those rooms, the network infrastructure and control automation I design, build, and maintain. Mixing a show is a production craft. The network and automation underneath it are engineering, and I keep the two distinct.
 
 ## Core Capabilities
 
-- **Live Audio Operation** — Hands-on mixing on Allen & Heath (SQ, Qu) consoles and Dante digital audio networks.
-- **Network Infrastructure** — Designing and managing high-reliability Ubiquiti UniFi networks with VLAN segmentation for production traffic.
-- **Production Automation & Control** — Streamlining complex workflows using Bitfocus Companion, ProPresenter, and custom MIDI/OSC/TCP control systems.
-- **Systems Integration** — Converging the network, control, and automation layers into cohesive, user-friendly operational environments (the built infrastructure behind a show, distinct from operating the console).
+- **Live Audio Operation.** Hands-on mixing on Allen & Heath (SQ, Qu) consoles and Dante digital audio networks.
+- **Network Infrastructure.** Ubiquiti UniFi networks built for high reliability, with VLAN segmentation for production traffic.
+- **Production Automation & Control.** Collapsing multi-step workflows using Bitfocus Companion, ProPresenter, and custom MIDI/OSC/TCP control systems.
+- **Systems Integration.** Converging the network, control, and automation layers into one environment an operator can actually run, the built infrastructure behind a show as distinct from operating the console.
 
 ---
 

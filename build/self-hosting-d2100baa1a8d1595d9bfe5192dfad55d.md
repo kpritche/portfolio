@@ -1,15 +1,15 @@
 # Self-Hosting Infrastructure
 
-Managing private cloud infrastructure for data sovereignty, security, and the testing of emerging technologies. This project demonstrates proficiency in server administration, network security, and modern deployment practices.
+Private cloud infrastructure I run for data sovereignty, security, and somewhere to test new technology before it touches anything that matters. It covers server administration, network security, and deployment practice.
 
 ---
 
-## Infrastructure Philosophy
+## Why Self-Host
 
-I believe in maintaining a robust, secure, and self-hosted digital environment that prioritizes:
+Two reasons, and they reinforce each other:
 
-- **Data Privacy:** Maintaining full ownership and control over personal and professional data.
-- **Continuous Learning:** Using the laboratory environment to test new software, networking configurations, and automation scripts.
+- **Data Privacy:** Full ownership and control over personal and professional data, on hardware I can see.
+- **Continuous Learning:** A lab where new software, networking configurations, and automation scripts can fail without consequence.
 
 ---
 
@@ -26,13 +26,13 @@ I believe in maintaining a robust, secure, and self-hosted digital environment t
 
 ### Data Management
 - **Automated Backups:** Scheduled, encrypted backup routines to both local and off-site storage.
-- **File Storage and Sync:** Deployment of collaborative file management systems for seamless data access across devices.
+- **File Storage and Sync:** Collaborative file management so the same data is available on every device without manual copying.
 
 ---
 
 ## Technical Standards
 
-All infrastructure components are managed according to the following principles:
+Every component is managed to the same principles:
 - **Infrastructure as Code (IaC):** Using configuration files and scripts to ensure reproducible environments.
 - **Monitoring and Alerting:** Real-time monitoring of system health and resource utilization.
 - **Security Audits:** Regular reviews of network logs, firewall rules, and service configurations.
