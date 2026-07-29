@@ -19,7 +19,7 @@ I've spent years making hard technical work legible to the people who depend on 
 
 ### Hardening a production autograder · Purdue FYE (ENGR 131)
 
-Extended and hardened the **Gradescope autograder** that grades ~2,600 first-year engineering students each semester, a shared course system I help maintain. My work: rebuilt the SSH deploy-key pipeline to fail loudly instead of silently shipping broken grading; added Excel-submission autograding; rewrote the late-penalty engine to read deadlines straight from Gradescope's own submission metadata (flat, timezone-correct, fail-open); remediated a leaked deploy key; and authored the technical and authoring documentation the TA team uses. It runs on a clone-at-grade-time model, so a test fix deploys on merge with no re-upload.
+Extended and hardened the **Gradescope autograder** that grades ~2,600 first-year engineering students each semester, a shared course system I help maintain. My work: rebuilt the SSH deploy-key pipeline to fail loudly instead of silently shipping broken grading; added Excel-submission autograding; rewrote the late-penalty engine to read deadlines straight from Gradescope's own submission metadata (flat, timezone-correct, fail-open); and authored the technical and authoring documentation the TA team uses. It runs on a clone-at-grade-time model, so a test fix deploys on merge with no re-upload.
 
 *Python · Docker · Gradescope autograder harness · GitHub Codespaces · SSH deploy keys · pandas*
 
