@@ -41,7 +41,7 @@ For the Fall 2022 and Fall 2023 semesters I developed Python and MATLAB coursewo
 - **Role:** Fork Maintainer / Contributor
 - **Platform:** Python • Gradescope Autograder • unittest
 - **Original Author:** John Cole ([jhcole](https://github.com/jhcole))
-- **My Fork:** [github.com/pritchettk/generic-grader](https://github.com/pritchettk/generic-grader) (my professional Purdue GitHub account)
+- **My Fork:** [github.com/kpritche/generic-grader](https://github.com/kpritche/generic-grader)
 
 `generic-grader` is a Python autograding framework that integrates with Gradescope to automatically evaluate student submissions. I maintain a fork that extends the original with additional grading capabilities used in Purdue's first-year engineering courses.
 
