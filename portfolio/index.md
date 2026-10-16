@@ -17,6 +17,14 @@ I've spent years making hard technical work legible to the people who depend on 
 
 ## Selected Projects
 
+### Rebuilding a first-year engineering course on GitHub · Purdue FYE (ENGR 131)
+
+ENGR 131 used to reach students as separate materials in each of its 20+ sections, so every fix had to be made more than once. I proposed moving the course onto one version-controlled platform built on GitHub, Codespaces, and Jupyter Book, and I led the technical build: a site that GitHub Actions compiles and deploys, with Gradescope autograders that pull their tests from the same repository. The rewritten course **shipped for Fall 2026 and is live now**. It covers professional development, Excel, AI, Python, and a semester-long team design project, and **30 of its assignments are graded automatically**. I shared content authorship with the curriculum team, and wrote a prose-style checker (62 tests) that keeps writing from several authors consistent.
+
+**[Visit the live course site](https://purdue-fye.github.io/engr-13100-2026-fall/intro.html)** · [How it was built](curricular/fye-materials.md)
+
+*Jupyter Book v2 · MyST Markdown · GitHub Actions · GitHub Codespaces · Gradescope · Python*
+
 ### Hardening a production autograder · Purdue FYE (ENGR 131)
 
 Extended and hardened the **Gradescope autograder** that grades ~2,600 first-year engineering students each semester, a shared course system I help maintain. My work: rebuilt the SSH deploy-key pipeline to fail loudly instead of silently shipping broken grading; added Excel-submission autograding; rewrote the late-penalty engine to read deadlines straight from Gradescope's own submission metadata (flat, timezone-correct, fail-open); and authored the technical and authoring documentation the TA team uses. It runs on a clone-at-grade-time model, so a test fix deploys on merge with no re-upload.
@@ -85,6 +93,7 @@ Hands-on **live-production operations**, running live sound on Allen & Heath con
 ## Professional Highlights
 
 - Developed curriculum reaching **2,600 engineering students per semester** across four first-year courses and 20+ sections
+- Shipped the **ENGR 131 rewrite for Fall 2026**: one version-controlled course platform for 20+ sections, with **30 autograded assignments**
 - Created **interactive learning materials** reaching **thousands** of learners online
 - Automated critical **church production** workflows, **cutting a 4 to 5 hour weekly task to under 15 minutes**
 - Built a Python automation that turns **roughly a week of student grade-data analysis into ~15 minutes**
@@ -101,7 +110,7 @@ Hands-on **live-production operations**, running live sound on Allen & Heath con
 
 ## Technical Stack
 
-**Languages & Frameworks:** Python • MATLAB • HTML • Markdown
+**Languages & Frameworks:** Python • TypeScript • Bun • MATLAB • HTML • Markdown
 
 **Protocols & Infrastructure:** Docker • Linux • REST APIs
 
@@ -111,9 +120,9 @@ Hands-on **live-production operations**, running live sound on Allen & Heath con
 
 **Tools & Platforms:** GitHub • VS Code • Gradescope • Brightspace • Canvas • UniFi/Ubiquiti Systems
 
-**Content Creation** Camtasia • Adobe Premier • Canva • WordPress
+**Content Creation:** Camtasia • Adobe Premiere • Canva • WordPress
 
-**Audio/Visual** OBS Studio • Dante Audio • ProPresenter • BitFocus Companion • DMX Lighting • Allen & Heath Audio Equipment
+**Audio/Visual:** OBS Studio • Dante Audio • ProPresenter • BitFocus Companion • DMX Lighting • Allen & Heath Audio Equipment
 
 ---
 

@@ -10,12 +10,16 @@ This page is the record of my curriculum-development work for **First-Year Engin
 - **Platform:** Jupyter Book v2 • MyST Markdown • GitHub Pages • GitHub Actions
 - **Live Site:** [purdue-fye.github.io/engr-13100-2026-fall](https://purdue-fye.github.io/engr-13100-2026-fall/intro.html)
 
-I lead the technical development of the ENGR 131 course website, the unified version-controlled platform for delivering course content across the program's many sections, currently in active development for the Fall 2026 offering. Content delivery used to be fragmented across sections. I proposed migrating it to GitHub Pages (building on the ENGR 133 framework) and own the technical side of that build, while sharing content authorship with the curriculum team.
+I led the technical development of the ENGR 131 course website, the unified version-controlled platform that now delivers course content across the program's many sections. The rewritten course shipped for the Fall 2026 semester and is live. Content delivery used to be fragmented across sections. I proposed migrating it to GitHub Pages (building on the ENGR 133 framework) and owned the technical side of that build, while sharing content authorship with the curriculum team.
+
+The course runs in five parts: professional development, Excel, AI, Python, and a semester-long team design project. Thirty of its assignments are graded automatically on Gradescope.
 
 **Key Contributions**
 
 - **Content & Authoring:** Writing and structuring course content in MyST Markdown.
 - **Automation & CI/CD:** Building the GitHub Actions pipelines that compile and deploy the site.
+- **Autograding:** Wiring Gradescope autograders to the course repository, so a test fix deploys when it merges.
+- **Writing Consistency:** A prose-style checker (62 tests) that holds pages from several authors to one style guide.
 - **DevOps:** Serving as DevOps for the organizational repositories that host the course website across its many sections.
 
 ---
